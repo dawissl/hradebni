@@ -1,0 +1,13 @@
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConsoleHelloWorld.exe
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConsoleHelloWorld.deps.json
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConsoleHelloWorld.runtimeconfig.json
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConsoleHelloWorld.runtimeconfig.dev.json
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConsoleHelloWorld.dll
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConsoleHelloWorld.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConsoleHelloWorld.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConsoleHelloWorld.AssemblyInfoInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConsoleHelloWorld.AssemblyInfo.cs
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConsoleHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConsoleHelloWorld.dll
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConsoleHelloWorld.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\ConsoleHelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConsoleHelloWorld.genruntimeconfig.cache
