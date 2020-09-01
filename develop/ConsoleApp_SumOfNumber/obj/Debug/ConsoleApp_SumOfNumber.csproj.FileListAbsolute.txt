@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_SumOfNumber\bin\Debug\ConsoleApp1_cv01.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_SumOfNumber\bin\Debug\ConsoleApp1_cv01.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_SumOfNumber\bin\Debug\ConsoleApp1_cv01.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_SumOfNumber\obj\Debug\ConsoleApp_SumOfNumber.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_SumOfNumber\obj\Debug\ConsoleApp_SumOfNumber.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_SumOfNumber\obj\Debug\ConsoleApp1_cv01.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_SumOfNumber\obj\Debug\ConsoleApp1_cv01.pdb

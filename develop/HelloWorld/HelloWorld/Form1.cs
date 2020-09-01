@@ -16,5 +16,12 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            lblText.Text = "Hello World!";
+        }
+
+        
     }
 }

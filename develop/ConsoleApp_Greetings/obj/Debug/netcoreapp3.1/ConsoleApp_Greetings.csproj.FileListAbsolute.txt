@@ -1,0 +1,13 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\bin\Debug\netcoreapp3.1\ConsoleApp_Greetings.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\bin\Debug\netcoreapp3.1\ConsoleApp_Greetings.deps.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\bin\Debug\netcoreapp3.1\ConsoleApp_Greetings.runtimeconfig.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\bin\Debug\netcoreapp3.1\ConsoleApp_Greetings.runtimeconfig.dev.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\bin\Debug\netcoreapp3.1\ConsoleApp_Greetings.dll
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\bin\Debug\netcoreapp3.1\ConsoleApp_Greetings.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\obj\Debug\netcoreapp3.1\ConsoleApp_Greetings.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\obj\Debug\netcoreapp3.1\ConsoleApp_Greetings.AssemblyInfoInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\obj\Debug\netcoreapp3.1\ConsoleApp_Greetings.AssemblyInfo.cs
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\obj\Debug\netcoreapp3.1\ConsoleApp_Greetings.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\obj\Debug\netcoreapp3.1\ConsoleApp_Greetings.dll
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\obj\Debug\netcoreapp3.1\ConsoleApp_Greetings.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_Greetings\obj\Debug\netcoreapp3.1\ConsoleApp_Greetings.genruntimeconfig.cache

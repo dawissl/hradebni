@@ -1,0 +1,12 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConosleApp_Pyramid.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConosleApp_Pyramid.deps.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConosleApp_Pyramid.runtimeconfig.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConosleApp_Pyramid.runtimeconfig.dev.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConosleApp_Pyramid.dll
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\bin\Debug\netcoreapp3.1\ConosleApp_Pyramid.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConosleApp_Pyramid.AssemblyInfoInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConosleApp_Pyramid.AssemblyInfo.cs
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConosleApp_Pyramid.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConosleApp_Pyramid.dll
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConosleApp_Pyramid.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\ConsoleHelloWorld\obj\Debug\netcoreapp3.1\ConosleApp_Pyramid.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\bin\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\bin\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.deps.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\bin\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.runtimeconfig.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\bin\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.runtimeconfig.dev.json
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\bin\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.dll
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\bin\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\obj\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\obj\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.AssemblyInfoInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\obj\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.AssemblyInfo.cs
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\obj\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\obj\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.dll
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\obj\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ConsoleApp_HelloWorld\obj\Debug\netcoreapp3.1\ConsoleApp_HelloWorld.genruntimeconfig.cache

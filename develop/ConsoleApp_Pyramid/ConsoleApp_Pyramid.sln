@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConosleApp_Pyramid", "ConsoleHelloWorld\ConosleApp_Pyramid.csproj", "{AF3EB210-5116-4B26-96CF-869542E77570}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF3EB210-5116-4B26-96CF-869542E77570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3EB210-5116-4B26-96CF-869542E77570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3EB210-5116-4B26-96CF-869542E77570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3EB210-5116-4B26-96CF-869542E77570}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {840C1B37-EAC3-4D52-9C18-40DF57370D0C}
+	EndGlobalSection
+EndGlobal
