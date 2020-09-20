@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\EvenOddNumbers\bin\Debug\EvenOddNumbers.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\EvenOddNumbers\bin\Debug\EvenOddNumbers.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\EvenOddNumbers\bin\Debug\EvenOddNumbers.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\EvenOddNumbers\obj\Debug\EvenOddNumbers.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\EvenOddNumbers\obj\Debug\EvenOddNumbers.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\EvenOddNumbers\obj\Debug\EvenOddNumbers.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\EvenOddNumbers\obj\Debug\EvenOddNumbers.pdb

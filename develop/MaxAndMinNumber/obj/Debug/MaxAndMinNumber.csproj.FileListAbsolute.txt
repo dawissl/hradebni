@@ -1,0 +1,6 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\bin\Debug\MaxAndMinNumber.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\bin\Debug\MaxAndMinNumber.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\bin\Debug\MaxAndMinNumber.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\obj\Debug\MaxAndMinNumber.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\obj\Debug\MaxAndMinNumber.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\obj\Debug\MaxAndMinNumber.pdb
