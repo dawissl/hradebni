@@ -4,3 +4,6 @@ C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\bin\Debug\M
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\obj\Debug\MaxAndMinNumber.csproj.CoreCompileInputs.cache
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\obj\Debug\MaxAndMinNumber.exe
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\obj\Debug\MaxAndMinNumber.pdb
+P:\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\bin\Debug\MaxAndMinNumber.exe.config
+P:\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\obj\Debug\MaxAndMinNumber.exe
+P:\Vyuka\Repo\hradebni\develop\MaxAndMinNumber\obj\Debug\MaxAndMinNumber.pdb

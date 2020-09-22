@@ -33,7 +33,7 @@ namespace MaxAndMinNumber
 
             // využitá vestavěných funkcí pro práci s polem
             // int max = array.Max();
-            // int min = array.Max();
+            // int min = array.Min();
         
             Console.WriteLine("Nejvyšší číslo je {0} a nejmenší číslo je {1}", max, min) ;
         }
