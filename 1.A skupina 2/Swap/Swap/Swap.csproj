@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E7831473-3F98-4141-A9D6-84D6B7EB63B6}</ProjectGuid>
+    <ProjectGuid>{DCDBA1C5-9D0D-45FC-87BF-06FF51C04F49}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PozdraveniUzivatele</RootNamespace>
-    <AssemblyName>PozdraveniUzivatele</AssemblyName>
+    <RootNamespace>Swap</RootNamespace>
+    <AssemblyName>Swap</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E7831473-3F98-4141-A9D6-84D6B7EB63B6}</ProjectGuid>
+    <ProjectGuid>{7A6DEBEE-1B32-421C-935B-212379394707}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>PozdraveniUzivatele</RootNamespace>
     <AssemblyName>PozdraveniUzivatele</AssemblyName>
@@ -12,7 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
