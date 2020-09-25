@@ -10,10 +10,11 @@ namespace Swap
     {
         static void Main(string[] args)
         {
-            
+            // deklarování celočíselných proměnných a jejich inicializace ze vstupu po užití Parse()
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
 
+            // deklarace pomocné proměnné do které následně vložíme jednu z hodnot
             int tmp = a;
             a = b;
             b = tmp;
