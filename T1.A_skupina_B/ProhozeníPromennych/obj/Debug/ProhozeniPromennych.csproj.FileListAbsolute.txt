@@ -1,0 +1,10 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\ProhozeníPromennych\bin\Debug\ProhozeniPromennych.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\ProhozeníPromennych\bin\Debug\ProhozeniPromennych.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\ProhozeníPromennych\bin\Debug\ProhozeniPromennych.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\ProhozeníPromennych\obj\Debug\ProhozeniPromennych.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\ProhozeníPromennych\obj\Debug\ProhozeniPromennych.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\ProhozeníPromennych\obj\Debug\ProhozeniPromennych.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\ProhozeníPromennych\obj\Debug\ProhozeniPromennych.pdb
+P:\Vyuka\Repo\hradebni\T1.A skupina B\ProhozeníPromennych\bin\Debug\ProhozeniPromennych.exe.config
+P:\Vyuka\Repo\hradebni\T1.A skupina B\ProhozeníPromennych\obj\Debug\ProhozeniPromennych.exe
+P:\Vyuka\Repo\hradebni\T1.A skupina B\ProhozeníPromennych\obj\Debug\ProhozeniPromennych.pdb

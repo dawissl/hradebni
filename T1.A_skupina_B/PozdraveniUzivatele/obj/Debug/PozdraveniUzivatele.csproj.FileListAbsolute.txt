@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\bin\Debug\PozdraveniUzivatele.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\bin\Debug\PozdraveniUzivatele.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\bin\Debug\PozdraveniUzivatele.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.pdb
