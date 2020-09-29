@@ -16,11 +16,19 @@ namespace MaxMinNumber
             Console.WriteLine("Zadejte 5 cisel");
 
             // přidání hodnot do jednotlivých částí pole ze vstupu - náročný přístup (ukážeme si hezčí)
-            poleCisel[0] = int.Parse(Console.ReadLine());
-            poleCisel[1] = int.Parse(Console.ReadLine());
-            poleCisel[2] = int.Parse(Console.ReadLine());
-            poleCisel[3] = int.Parse(Console.ReadLine());
-            poleCisel[4] = int.Parse(Console.ReadLine());
+            // poleCisel[0] = int.Parse(Console.ReadLine());
+            // poleCisel[1] = int.Parse(Console.ReadLine());
+            // poleCisel[2] = int.Parse(Console.ReadLine());
+            // poleCisel[3] = int.Parse(Console.ReadLine());
+            // poleCisel[4] = int.Parse(Console.ReadLine());
+            for (int i = 0; i < 5; i++)
+            {
+                // pracujeme s i
+                poleCisel[i] = int.Parse(Console.ReadLine()); ;
+
+            }
+
+            
 
             // zadefinování proměnné pro maximum a minimum - a vložení hodnoty z 1. pozice pole
             int max = poleCisel[0];
@@ -37,42 +45,17 @@ namespace MaxMinNumber
                vykoná se pokud podmínka není splněna
             }*/
 
-            if(poleCisel[1] > max)
+            for(int i=1;i<5; i++)
             {
-                max = poleCisel[1];
+                if (poleCisel[i] > max)
+                {
+                    max = poleCisel[i];
+                }
+                if (poleCisel[i] < min)
+                {
+                    min = poleCisel[i];
+                }
             }
-            if(poleCisel[1] < min)
-            {
-                min = poleCisel[1];
-            }
-            // -------------------------
-            if (poleCisel[2] > max)
-            {
-                max = poleCisel[2];
-            }
-            if (poleCisel[2] < min)
-            {
-                min = poleCisel[2];
-            }
-            // -------------------------
-            if (poleCisel[3] > max)
-            {
-                max = poleCisel[3];
-            }
-            if (poleCisel[3] < min)
-            {
-                min = poleCisel[3];
-            }
-            // -------------------------
-            if (poleCisel[4] > max)
-            {
-                max = poleCisel[4];
-            }
-            if (poleCisel[4] < min)
-            {
-                min = poleCisel[4];
-            }
-            // -------------------------
 
             // vypsaní maxima a minima na výstup
             // na pozici {0} se vypíše první argument a na pozici {1} druhý
