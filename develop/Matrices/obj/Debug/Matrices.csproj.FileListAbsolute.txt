@@ -1,0 +1,10 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\bin\Debug\Matrices.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\bin\Debug\Matrices.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\bin\Debug\Matrices.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.Form1.resources
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.Properties.Resources.resources
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.csproj.GenerateResource.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.pdb
