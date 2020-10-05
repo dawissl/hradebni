@@ -166,7 +166,7 @@ namespace CalcApp
 
         private static bool isNumber(string num)
         {
-            return double.TryParse(num, out double d);
+            return double.TryParse(num, out _);
         }
     }
 }
