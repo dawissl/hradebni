@@ -8,3 +8,6 @@ C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.csproj.CoreCompileInputs.cache
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.exe
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.pdb
+P:\Vyuka\Repo\hradebni\develop\Matrices\bin\Debug\Matrices.exe.config
+P:\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.exe
+P:\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.pdb

@@ -5,3 +5,6 @@ C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\TriangleValidate\bin\Debug\
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\TriangleValidate\bin\Debug\TriangleValidate.pdb
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\TriangleValidate\obj\Debug\TriangleValidate.exe
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\TriangleValidate\obj\Debug\TriangleValidate.pdb
+P:\Vyuka\Repo\hradebni\develop\TriangleValidate\bin\Debug\TriangleValidate.exe.config
+P:\Vyuka\Repo\hradebni\develop\TriangleValidate\obj\Debug\TriangleValidate.exe
+P:\Vyuka\Repo\hradebni\develop\TriangleValidate\obj\Debug\TriangleValidate.pdb

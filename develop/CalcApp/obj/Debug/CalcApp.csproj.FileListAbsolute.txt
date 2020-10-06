@@ -5,3 +5,7 @@ C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\CalcApp\obj\Debug\CalcApp.c
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\CalcApp\obj\Debug\CalcApp.csproj.CoreCompileInputs.cache
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\CalcApp\obj\Debug\CalcApp.exe
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\CalcApp\obj\Debug\CalcApp.pdb
+P:\Vyuka\Repo\hradebni\develop\CalcApp\bin\Debug\CalcApp.exe.config
+P:\Vyuka\Repo\hradebni\develop\CalcApp\obj\Debug\CalcApp.exe
+P:\Vyuka\Repo\hradebni\develop\CalcApp\obj\Debug\CalcApp.pdb
+P:\Vyuka\Repo\hradebni\develop\CalcApp\obj\Debug\CalcApp.csprojResolveAssemblyReference.cache

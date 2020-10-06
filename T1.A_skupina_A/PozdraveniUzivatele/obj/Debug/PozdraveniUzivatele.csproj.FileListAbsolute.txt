@@ -5,3 +5,6 @@ C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.csproj.CoreCompileInputs.cache
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.exe
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A skupina A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.pdb
+P:\Vyuka\Repo\hradebni\T1.A_skupina_A\PozdraveniUzivatele\bin\Debug\PozdraveniUzivatele.exe.config
+P:\Vyuka\Repo\hradebni\T1.A_skupina_A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.exe
+P:\Vyuka\Repo\hradebni\T1.A_skupina_A\PozdraveniUzivatele\obj\Debug\PozdraveniUzivatele.pdb
