@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\HW02\obj\Debug\HW02.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\HW02\obj\Debug\HW02.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\HW02\bin\Debug\HW02.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\HW02\bin\Debug\HW02.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\HW02\bin\Debug\HW02.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\HW02\obj\Debug\HW02.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\HW02\obj\Debug\HW02.pdb

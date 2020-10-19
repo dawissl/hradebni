@@ -52,14 +52,14 @@ namespace CalcApp
                         Console.WriteLine("Neznámá instrukce");
                         break;
                 }
-                
+
             } while (!exit);
-           
+
         }
 
         private static void menu()
         {
-            
+
             Console.WriteLine("Aplikace kalkulačka");
             Console.WriteLine("-------------------------------------------");
             Console.WriteLine(" [H]elp | [E]xit | [R]eset");
@@ -83,17 +83,8 @@ namespace CalcApp
         {
             Console.WriteLine("Sčítání");
             string a, b;
-            do
-            {
-                Console.Write("Vlož první číslo:");
-                a = Console.ReadLine();
-            } while (!isNumber(a));
-
-            do
-            {
-                Console.Write("Vlož druhé číslo:");
-                b = Console.ReadLine();
-            } while (!isNumber(b));
+            a = GetNumberOnPosition(1);
+            b = GetNumberOnPosition(2);
 
             Console.WriteLine("{0} + {1} = {2}", a, b, double.Parse(a) + double.Parse(b));
         }
@@ -102,18 +93,8 @@ namespace CalcApp
         {
             Console.WriteLine("Odčítání");
             string a, b;
-            do
-            {
-                Console.Write("Vlož první číslo:");
-                a = Console.ReadLine();
-            } while (!isNumber(a));
-
-            do
-            {
-                Console.Write("Vlož druhé číslo:");
-                b = Console.ReadLine();
-            } while (!isNumber(b));
-
+            a = GetNumberOnPosition(1);
+            b = GetNumberOnPosition(2);
             Console.WriteLine("{0} - {1} = {2}", a, b, double.Parse(a) - double.Parse(b));
         }
 
@@ -121,36 +102,19 @@ namespace CalcApp
         {
             Console.WriteLine("Násobení");
             string a, b;
-            do
-            {
-                Console.Write("Vlož první číslo:");
-                a = Console.ReadLine();
-            } while (!isNumber(a));
-
-            do
-            {
-                Console.Write("Vlož druhé číslo:");
-                b = Console.ReadLine();
-            } while (!isNumber(b));
+            a = GetNumberOnPosition(1);
+            b = GetNumberOnPosition(2);
 
             Console.WriteLine("{0} * {1} = {2}", a, b, double.Parse(a) * double.Parse(b));
         }
+
 
         private static void div()
         {
             Console.WriteLine("Dělení");
             string a, b;
-            do
-            {
-                Console.Write("Vlož první číslo:");
-                a = Console.ReadLine();
-            } while (!isNumber(a));
-
-            do
-            {
-                Console.Write("Vlož druhé číslo:");
-                b = Console.ReadLine();
-            } while (!isNumber(b));
+            a = GetNumberOnPosition(1);
+            b = GetNumberOnPosition(2);
 
             if (b.Equals("0"))
             {
@@ -161,12 +125,30 @@ namespace CalcApp
                 Console.WriteLine("{0} / {1} = {2}", a, b, double.Parse(a) / double.Parse(b));
             }
 
-            
+
         }
 
         private static bool isNumber(string num)
         {
             return double.TryParse(num, out _);
+        }
+
+        private static string GetNumberOnPosition(int v)
+        {
+            string number;
+            int counter = 0;
+            do
+            {
+                if (counter != 0)
+                {
+                    Console.WriteLine("Vložena nevalidní číselná hodnota");
+                }
+                Console.Write("Vlož {0}. číslo:", v);
+                number = Console.ReadLine();
+                counter++;
+            } while (!isNumber(number));
+
+            return number;
         }
     }
 }

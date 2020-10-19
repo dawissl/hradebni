@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\KvadratickaRovnice\bin\Debug\KvadratickaRovnice.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\KvadratickaRovnice\bin\Debug\KvadratickaRovnice.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\KvadratickaRovnice\bin\Debug\KvadratickaRovnice.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\KvadratickaRovnice\obj\Debug\KvadratickaRovnice.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\KvadratickaRovnice\obj\Debug\KvadratickaRovnice.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\KvadratickaRovnice\obj\Debug\KvadratickaRovnice.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\KvadratickaRovnice\obj\Debug\KvadratickaRovnice.pdb
