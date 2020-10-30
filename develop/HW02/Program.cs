@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Server;
+// -../.-/.--/../...
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -59,15 +61,22 @@ namespace HW02
             Console.WriteLine("Načti 5 čísel:");
 
             // TODO - načtení čísel ze vstupu a uložení do pole
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("Načti {0}. číslo:", i + 1);
+                poleCisel[i] = int.Parse(Console.ReadLine());
+            }
 
             for (int i = 0; i < 5; i++)
             {
                 if ((poleCisel[i] % 2) == 0)
                 {
                     // TODO - zvýšení počítadla pro sudá čísla
+                    sude++;
                 }
                 else
                 {
+                    liche++;
                     // TODO - zvýšení počítadla pro lichá čísla
                 }
             }
@@ -86,6 +95,10 @@ namespace HW02
             double cislo = double.Parse(Console.ReadLine());
 
             // TODO - kód, který bude snižovat číslo (využití cyklu s neznámým počtem opakování)
+            while (cislo >= 0)
+            {
+                cislo = cislo - 3.14;
+            }
 
             Console.WriteLine("Číslo je již záporné a má hodnotu {0}", cislo);
         }
@@ -103,7 +116,12 @@ namespace HW02
             int pocet = A % B;
             Console.WriteLine("Výpis hvězdiček:");
 
-            // TODO - vypsání tolik hvězdiček * jaký je výsledek (cyklus s pevným počtem opakování)
+            string hvezdy = "";
+            for (int i = 0; i < pocet; i++)
+            {
+                hvezdy += "*";
+            }
+            Console.WriteLine(hvezdy);
 
         }
 
@@ -122,9 +140,7 @@ namespace HW02
             // konstanta PI z knihovny
             double pi = Math.PI;
 
-            // TODO - určení výšky válce
-
-           
+            vyska = objem / (pi * polomer * polomer);
 
             Console.WriteLine("Válec o objemu {0} a poloměru {1} má výšku {2}", objem, polomer, vyska);
 

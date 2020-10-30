@@ -1,7 +1,0 @@
-C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Konzultace\bin\Debug\Konzultace.exe.config
-C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Konzultace\bin\Debug\Konzultace.exe
-C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Konzultace\bin\Debug\Konzultace.pdb
-C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Konzultace\obj\Debug\Konzultace.csprojAssemblyReference.cache
-C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Konzultace\obj\Debug\Konzultace.csproj.CoreCompileInputs.cache
-C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Konzultace\obj\Debug\Konzultace.exe
-C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Konzultace\obj\Debug\Konzultace.pdb
