@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\FixCode\bin\Debug\FixCode.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\FixCode\bin\Debug\FixCode.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\FixCode\bin\Debug\FixCode.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\FixCode\obj\Debug\FixCode.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\FixCode\obj\Debug\FixCode.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\FixCode\obj\Debug\FixCode.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\FixCode\obj\Debug\FixCode.pdb
