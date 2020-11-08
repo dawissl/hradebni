@@ -76,8 +76,8 @@ namespace HW02
                 }
                 else
                 {
-                    liche++;
                     // TODO - zvýšení počítadla pro lichá čísla
+                    liche++;
                 }
             }
 
@@ -116,6 +116,7 @@ namespace HW02
             int pocet = A % B;
             Console.WriteLine("Výpis hvězdiček:");
 
+            // TODO - vypsání tolik hvězdiček * jaký je výsledek (cyklus s pevným počtem opakování)
             string hvezdy = "";
             for (int i = 0; i < pocet; i++)
             {
@@ -140,6 +141,7 @@ namespace HW02
             // konstanta PI z knihovny
             double pi = Math.PI;
 
+            // TODO - určení výšky válce
             vyska = objem / (pi * polomer * polomer);
 
             Console.WriteLine("Válec o objemu {0} a poloměru {1} má výšku {2}", objem, polomer, vyska);
