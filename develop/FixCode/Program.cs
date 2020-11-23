@@ -50,15 +50,19 @@ namespace FixCode
 
             string veta = "21876365711910233341";
             Console.WriteLine("Vstupní řetězec s čísly je: {0}", veta);
-            int pocet = 1;
-
-            for (int i = 0, i < veta.Length, i++)
+            // pokud chceme něco počítat není chytré mít výchozí hodnotu počítadla 1
+            int pocet = 0; 
+            // konstrukce for cyku odděluje jednotlivé příkazy pomocí středníku (;) nikoliv čárky (,)
+            for (int i = 0; i < veta.Length; i++)
             {
                 string znak = veta.Substring(i, 1);
+                // skrytá chyba, která je špatně z doporučení, program je ovšem funkční i bez její opravy
                 if (double.Parse(znak) == 1) { pocet++; }
             }
 
-            Console.WriteLine("V řetězci se nachází {0} jedniček.",pocet);
+
+
+            Console.WriteLine("V řetězci se nachází {0} jedniček.", pocet);
         }
 
         /// <summary>
@@ -69,7 +73,9 @@ namespace FixCode
             Console.WriteLine("B - Bublinkové řazení");
 
             int[] arr = { 3, 2, 8, 7, 6 };
-            Console.WriteLine("Neserazene pole: {0}, {1}, {2}, {3}, {4}", arr[1], arr[2], arr[3], arr[4], arr[5]);
+            // pokus o vypsání hodnty na pozici pole[5], která neexistuje
+            // pole indexujeme od 0 a nejvyšší index v poli o velikosti 5 je tedy 4, pole[4]
+            Console.WriteLine("Neserazene pole: {0}, {1}, {2}, {3}, {4}", arr[0], arr[1], arr[2], arr[3], arr[4]);
 
             for (int i = 0; i < arr.Length - 1; i++)
             {
@@ -83,8 +89,9 @@ namespace FixCode
                     }
                 }
             }
-
-            Console.WriteLine("Serazene pole: {0}, {0}, {0}, {0}, {0}",arr[0], arr[1], arr[2], arr[3], arr[4]);
+            // uvedením formátu {0} značíme, že na 0. parametru bude vypsaná hodnota
+            // číslem X v {X} určujeme, kolikátý parametr chceme vypsat
+            Console.WriteLine("Serazene pole: {0}, {1}, {2}, {3}, {4}", arr[0], arr[1], arr[2], arr[3], arr[4]);
 
         }
 
@@ -95,12 +102,12 @@ namespace FixCode
         {
             Console.WriteLine("C - Změna čísla v cyklu");
 
-            int cislo = Math.PI;
+            double cislo = Math.PI; // desetinné číslo nelze ukládat jako int 
 
-            while (cislo >= -1.25) ;
+            while (cislo >= -1.25) // přebývající středník za podmínkou u while cyklu
             {
                 Console.WriteLine("Číslo má hodnotu: {0}", cislo);
-                if(Math.Round(cislo) > 3)
+                if (Math.Round(cislo) > 3)
                 {
                     cislo -= 0.26;
                 }
@@ -109,7 +116,7 @@ namespace FixCode
                     cislo *= 0.6;
                 }
 
-                if((Math.Floor(cislo)%3) > 2)
+                if ((Math.Floor(cislo) % 3) > 2)
                 {
                     cislo += 7.8;
                 }
@@ -118,14 +125,14 @@ namespace FixCode
                     cislo *= -1.3;
                 }
             }
-
-            Console.WriteLine("Číslo má hodnotu: {0}" cislo);
+            // chybějící čárka za vypisovaným řetězcem před uvedením parametrů
+            Console.WriteLine("Číslo má hodnotu: {0}", cislo);
 
 
         }
 
-        
 
-     
+
+
     }
 }

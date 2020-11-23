@@ -7,7 +7,7 @@ namespace GuessNumber
     {
         static void Main(string[] args)
         {
-            int number = new Random().Next(1, 10);
+            int number = new Random().Next(1, 11);
             Console.WriteLine("Uhádni číslo, které si myslím.");
             Console.WriteLine("Číslo je v rozmezí 1 až 10");
             while (!getNumber(number))

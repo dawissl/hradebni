@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\prednaska07\bin\Debug\prednaska07.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\prednaska07\bin\Debug\prednaska07.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\prednaska07\bin\Debug\prednaska07.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\prednaska07\obj\Debug\prednaska07.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\prednaska07\obj\Debug\prednaska07.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\prednaska07\obj\Debug\prednaska07.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\prednaska07\obj\Debug\prednaska07.pdb
