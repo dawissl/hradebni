@@ -51,12 +51,15 @@ namespace FixCode
             string veta = "21876365711910233341";
             Console.WriteLine("Vstupní řetězec s čísly je: {0}", veta);
             // pokud chceme něco počítat není chytré mít výchozí hodnotu počítadla 1
+            //int pocet = 1;
             int pocet = 0; 
             // konstrukce for cyku odděluje jednotlivé příkazy pomocí středníku (;) nikoliv čárky (,)
+            //for (int i = 0, i < veta.Length, i++)
             for (int i = 0; i < veta.Length; i++)
             {
                 string znak = veta.Substring(i, 1);
                 // skrytá chyba, která je špatně z doporučení, program je ovšem funkční i bez její opravy
+                //if (int.Parse(znak) == 1) { pocet++; }
                 if (double.Parse(znak) == 1) { pocet++; }
             }
 
@@ -75,6 +78,7 @@ namespace FixCode
             int[] arr = { 3, 2, 8, 7, 6 };
             // pokus o vypsání hodnty na pozici pole[5], která neexistuje
             // pole indexujeme od 0 a nejvyšší index v poli o velikosti 5 je tedy 4, pole[4]
+            // Console.WriteLine("Neserazene pole: {0}, {1}, {2}, {3}, {4}", arr[1], arr[2], arr[3], arr[4], arr[5]);
             Console.WriteLine("Neserazene pole: {0}, {1}, {2}, {3}, {4}", arr[0], arr[1], arr[2], arr[3], arr[4]);
 
             for (int i = 0; i < arr.Length - 1; i++)
@@ -91,6 +95,7 @@ namespace FixCode
             }
             // uvedením formátu {0} značíme, že na 0. parametru bude vypsaná hodnota
             // číslem X v {X} určujeme, kolikátý parametr chceme vypsat
+           // Console.WriteLine("Serazene pole: {0}, {0}, {0}, {0}, {0}", arr[0], arr[1], arr[2], arr[3], arr[4]);
             Console.WriteLine("Serazene pole: {0}, {1}, {2}, {3}, {4}", arr[0], arr[1], arr[2], arr[3], arr[4]);
 
         }
@@ -102,8 +107,10 @@ namespace FixCode
         {
             Console.WriteLine("C - Změna čísla v cyklu");
 
+            // int cislo = Math.PI
             double cislo = Math.PI; // desetinné číslo nelze ukládat jako int 
 
+            // while (cislo >= -1.25) ;
             while (cislo >= -1.25) // přebývající středník za podmínkou u while cyklu
             {
                 Console.WriteLine("Číslo má hodnotu: {0}", cislo);
@@ -126,6 +133,7 @@ namespace FixCode
                 }
             }
             // chybějící čárka za vypisovaným řetězcem před uvedením parametrů
+           // Console.WriteLine("Číslo má hodnotu: {0}" cislo);
             Console.WriteLine("Číslo má hodnotu: {0}", cislo);
 
 

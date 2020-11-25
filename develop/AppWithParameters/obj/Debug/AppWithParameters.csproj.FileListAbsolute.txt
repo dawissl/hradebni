@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\AppWithParameters\bin\Debug\AppWithParameters.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\AppWithParameters\bin\Debug\AppWithParameters.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\AppWithParameters\bin\Debug\AppWithParameters.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\AppWithParameters\obj\Debug\AppWithParameters.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\AppWithParameters\obj\Debug\AppWithParameters.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\AppWithParameters\obj\Debug\AppWithParameters.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\AppWithParameters\obj\Debug\AppWithParameters.pdb
