@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\UserInterface\bin\Debug\UserInterface.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\UserInterface\bin\Debug\UserInterface.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\UserInterface\bin\Debug\UserInterface.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\UserInterface\obj\Debug\UserInterface.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\UserInterface\obj\Debug\UserInterface.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\UserInterface\obj\Debug\UserInterface.pdb
