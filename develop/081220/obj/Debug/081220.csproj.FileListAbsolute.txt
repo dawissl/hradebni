@@ -1,0 +1,7 @@
+C:\Users\dawis\source\repos\081220\bin\Debug\081220.exe.config
+C:\Users\dawis\source\repos\081220\bin\Debug\081220.exe
+C:\Users\dawis\source\repos\081220\bin\Debug\081220.pdb
+C:\Users\dawis\source\repos\081220\obj\Debug\081220.csprojAssemblyReference.cache
+C:\Users\dawis\source\repos\081220\obj\Debug\081220.csproj.CoreCompileInputs.cache
+C:\Users\dawis\source\repos\081220\obj\Debug\081220.exe
+C:\Users\dawis\source\repos\081220\obj\Debug\081220.pdb
