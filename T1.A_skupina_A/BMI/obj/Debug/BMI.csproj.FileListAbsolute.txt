@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\BMI\bin\Debug\BMI.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\BMI\bin\Debug\BMI.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\BMI\bin\Debug\BMI.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\BMI\obj\Debug\BMI.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\BMI\obj\Debug\BMI.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\BMI\obj\Debug\BMI.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\BMI\obj\Debug\BMI.pdb

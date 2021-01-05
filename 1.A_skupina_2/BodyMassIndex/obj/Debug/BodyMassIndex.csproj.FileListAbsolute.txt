@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\BodyMassIndex\bin\Debug\BodyMassIndex.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\BodyMassIndex\bin\Debug\BodyMassIndex.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\BodyMassIndex\bin\Debug\BodyMassIndex.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\BodyMassIndex\obj\Debug\BodyMassIndex.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\BodyMassIndex\obj\Debug\BodyMassIndex.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\BodyMassIndex\obj\Debug\BodyMassIndex.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\BodyMassIndex\obj\Debug\BodyMassIndex.pdb
