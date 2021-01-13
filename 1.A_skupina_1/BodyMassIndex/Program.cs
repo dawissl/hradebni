@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BMI
+namespace BodyMassIndex
 {
     class Program
     {
@@ -20,7 +20,6 @@ namespace BMI
             Console.WriteLine("Hodnota BMI je: {0}", bmi);
             Console.WriteLine("Status: {0}", BmiResult(bmi, pohlavi));
 
-
         }
 
         private static double BmiCalcul(double vaha, double vyska)
@@ -33,13 +32,11 @@ namespace BMI
         private static string BmiResult(double bmi)
         {
             Status status = Status.PODVAHA;
-
             if (bmi <= 20) status = Status.PODVAHA;
-            if (bmi > 20 && bmi <= 24.9) status = Status.NORMALNI;
-            if (bmi > 25 && bmi <= 29.9) status = Status.LEHKA_OBEZITA;
-            if (bmi > 30 && bmi <= 39.9) status = Status.STREDNI_OBEZITA;
+            if (bmi > 20 && bmi <= 25) status = Status.NORMALNI;
+            if (bmi > 25 && bmi <= 30) status = Status.LEHKA_OBEZITA;
+            if (bmi > 30 && bmi <= 40) status = Status.STREDNI_OBEZITA;
             if (bmi > 40) status = Status.VYSOKA_OBEZITA;
-
             switch (status)
             {
                 case Status.PODVAHA:
@@ -62,8 +59,6 @@ namespace BMI
             Status status = Status.NEZNAMY;
             if (gender == "M") status = GetStatus(bmi, Gender.MUZ);
             if (gender == "Z") status = GetStatus(bmi, Gender.ZENA);
-
-
             switch (status)
             {
                 case Status.PODVAHA:
@@ -86,18 +81,19 @@ namespace BMI
             if (gender == Gender.MUZ)
             {
                 if (bmi < 20) return Status.PODVAHA;
-                if (bmi >= 20 && bmi <= 24.9) return Status.NORMALNI;
-                if (bmi > 25 && bmi <= 29.9) return Status.LEHKA_OBEZITA;
-                if (bmi > 30 && bmi <= 39.9) return Status.STREDNI_OBEZITA;
+                if (bmi >= 20 && bmi <= 25) return Status.NORMALNI;
+                if (bmi > 25 && bmi <= 30) return Status.LEHKA_OBEZITA;
+                if (bmi > 30 && bmi <= 40) return Status.STREDNI_OBEZITA;
                 if (bmi > 40) return Status.VYSOKA_OBEZITA;
             }
-            else
+            if(gender == Gender.ZENA)
             {
                 return GetStatus(bmi + 1, Gender.MUZ);
             }
             return Status.NEZNAMY;
         }
-        public enum Status { PODVAHA, NORMALNI, LEHKA_OBEZITA, STREDNI_OBEZITA, VYSOKA_OBEZITA, NEZNAMY }
-        public enum Gender { MUZ, ZENA }
+
+        public  enum Status { PODVAHA, NORMALNI, LEHKA_OBEZITA, STREDNI_OBEZITA, VYSOKA_OBEZITA, NEZNAMY}
+        public enum Gender { MUZ, ZENA}
     }
 }
