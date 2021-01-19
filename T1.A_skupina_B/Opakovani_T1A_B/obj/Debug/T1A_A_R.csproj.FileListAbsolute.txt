@@ -1,0 +1,7 @@
+C:\Users\dawis\source\repos\T1A_A_R\bin\Debug\T1A_A_R.exe.config
+C:\Users\dawis\source\repos\T1A_A_R\bin\Debug\T1A_A_R.exe
+C:\Users\dawis\source\repos\T1A_A_R\bin\Debug\T1A_A_R.pdb
+C:\Users\dawis\source\repos\T1A_A_R\obj\Debug\T1A_A_R.csprojAssemblyReference.cache
+C:\Users\dawis\source\repos\T1A_A_R\obj\Debug\T1A_A_R.csproj.CoreCompileInputs.cache
+C:\Users\dawis\source\repos\T1A_A_R\obj\Debug\T1A_A_R.exe
+C:\Users\dawis\source\repos\T1A_A_R\obj\Debug\T1A_A_R.pdb
