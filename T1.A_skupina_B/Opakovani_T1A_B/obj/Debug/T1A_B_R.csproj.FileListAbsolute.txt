@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\Opakovani_T1A_B\bin\Debug\T1A_A_R.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\Opakovani_T1A_B\bin\Debug\T1A_A_R.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\Opakovani_T1A_B\bin\Debug\T1A_A_R.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\Opakovani_T1A_B\obj\Debug\T1A_B_R.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\Opakovani_T1A_B\obj\Debug\T1A_B_R.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\Opakovani_T1A_B\obj\Debug\T1A_A_R.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\Opakovani_T1A_B\obj\Debug\T1A_A_R.pdb

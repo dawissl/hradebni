@@ -5,3 +5,10 @@ C:\Users\dawis\source\repos\T1A_A_R\obj\Debug\T1A_A_R.csprojAssemblyReference.ca
 C:\Users\dawis\source\repos\T1A_A_R\obj\Debug\T1A_A_R.csproj.CoreCompileInputs.cache
 C:\Users\dawis\source\repos\T1A_A_R\obj\Debug\T1A_A_R.exe
 C:\Users\dawis\source\repos\T1A_A_R\obj\Debug\T1A_A_R.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Opakovani_T1A_A\bin\Debug\T1A_A_R.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Opakovani_T1A_A\bin\Debug\T1A_A_R.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Opakovani_T1A_A\bin\Debug\T1A_A_R.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Opakovani_T1A_A\obj\Debug\T1A_A_R.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Opakovani_T1A_A\obj\Debug\T1A_A_R.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Opakovani_T1A_A\obj\Debug\T1A_A_R.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Opakovani_T1A_A\obj\Debug\T1A_A_R.pdb

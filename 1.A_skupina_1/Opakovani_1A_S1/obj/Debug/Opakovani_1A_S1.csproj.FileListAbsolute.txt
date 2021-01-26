@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_1\Opakovani_1A_S1\bin\Debug\Opakovani_1A_S1.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_1\Opakovani_1A_S1\bin\Debug\Opakovani_1A_S1.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_1\Opakovani_1A_S1\bin\Debug\Opakovani_1A_S1.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_1\Opakovani_1A_S1\obj\Debug\Opakovani_1A_S1.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_1\Opakovani_1A_S1\obj\Debug\Opakovani_1A_S1.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_1\Opakovani_1A_S1\obj\Debug\Opakovani_1A_S1.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_1\Opakovani_1A_S1\obj\Debug\Opakovani_1A_S1.pdb
