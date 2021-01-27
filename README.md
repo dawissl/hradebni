@@ -1,5 +1,7 @@
-# hradebni
+# SPŠ, SOŠ, SOŠ Hradební
 
-# T1.A  +  1.A
+# Repozitář předětu programování 
 
-# vyukove materialy - prezentace + demo příklady
+# T1.A  +  1.A 
+
+# vyukove materialy = prezentace + demo příklady + příklady ze cvičení
