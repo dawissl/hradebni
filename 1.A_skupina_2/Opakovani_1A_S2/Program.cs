@@ -10,6 +10,67 @@ namespace _1A_2
     {
         static void Main(string[] args)
         {
+            // demonstrace struktur
+            Console.WriteLine("Nacti dve strany obdelniku");
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Delky stran jsou: {0}, {1}", x, y);
+            Obdelnik obdelnik = new Obdelnik(x, y);
+            Console.WriteLine("Obdelnik: o = {0}, S = {1}", obdelnik.ObvodObdelniku(), obdelnik.ObsahObdelniku());
+
+            // demonostrace enumerace
+            Console.WriteLine("Vyber den v týdnu:");
+            string d = Console.ReadLine();
+
+            Console.WriteLine("{0} se řekne anglicky {1}", d, GetDay(d));
+            Console.WriteLine("{0} je  {1}. den v týdnu", d, (int)GetDay(d));
+
+            // demonstrace try-catch-finally
+
+            int[] poleHodnot = { 1, 8, 177, -3 };
+
+            try
+            {
+                poleHodnot[50]++;
+                int b = 0;
+                int a = 30 / b;
+            }
+            catch (IndexOutOfRangeException e)
+            {
+                Console.WriteLine("Chyba v poli indexů");
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("Děleni nulou");
+            }
+            finally
+            {
+                Console.WriteLine("Konec try-catch sekce");
+            }
+
+
+            // demenostrace switch-case pomoci Random
+            Random rnd = new Random();
+            int cislo = rnd.Next(1, 8);
+
+            Console.WriteLine("-- {0} --", cislo);
+            switch (cislo)
+            {
+                case 1:
+                    Console.WriteLine("Vygenerovani cislo 1");
+                    break;
+                case 2:
+                    Console.WriteLine("Vygenerovani cislo 2");
+                    break;
+                case 3:
+                    Console.WriteLine("Vygenerovani cislo 3");
+                    break;
+                default:
+                    Console.WriteLine("Invalid number");
+                    break;
+
+            }
 
             // demonstrace použití cyklů s pevným počtem opakování
             string[] pole1 = { "ahoj", "kamo", "jak", "se", "mas" };
@@ -46,11 +107,11 @@ namespace _1A_2
                 number = int.Parse(Console.ReadLine());
             }
             Console.WriteLine("Konec while cyklu");
-            
+
             // demonstrace vytváření funkcí a zanořování volání funkcí
             Console.WriteLine("Nacti cislo:");
             Console.WriteLine("Je cislo sude? {0}", Ano(JeSude(int.Parse(Console.ReadLine()))));
-            
+
         }
 
         // definice a implementace funkcí v příkladu zanořování funkcí
@@ -68,6 +129,53 @@ namespace _1A_2
             else
             {
                 return "Ne";
+            }
+        }
+        private enum Days { Monday = 1, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };
+
+        private static Days GetDay(string day)
+        {
+            switch (day.ToUpper())
+            {
+                case "PONDĚLÍ":
+                    return Days.Monday;
+                case "PÁTEK":
+                    return Days.Friday;
+                case "STŘEDA":
+                    return Days.Wednesday;
+                case "ÚTERÝ":
+                    return Days.Tuesday;
+                case "SOBOTA":
+                    return Days.Saturday;
+                case "NEDĚLE":
+                    return Days.Sunday;
+                case "ČTVRTEK":
+                    return Days.Thursday;
+                default:
+                    throw new Exception("Invalid day");
+            }
+
+        }
+
+        // struktura obdelniku
+        public struct Obdelnik
+        {
+
+            // konstruktor struktury
+            public Obdelnik(int a, int b)
+            {
+                A = a;
+                B = b;
+            }
+            public int A { get; set; }
+            public int B { get; set; }
+            public int ObvodObdelniku()
+            {
+                return 2 * A + 2 * B;
+            }
+            public int ObsahObdelniku()
+            {
+                return A * B;
             }
         }
     }
