@@ -1,0 +1,7 @@
+C:\Users\dawis\source\repos\HW03\obj\Debug\HW03.csprojAssemblyReference.cache
+C:\Users\dawis\source\repos\HW03\obj\Debug\HW03.csproj.CoreCompileInputs.cache
+C:\Users\dawis\source\repos\HW03\bin\Debug\HW03.exe.config
+C:\Users\dawis\source\repos\HW03\bin\Debug\HW03.exe
+C:\Users\dawis\source\repos\HW03\bin\Debug\HW03.pdb
+C:\Users\dawis\source\repos\HW03\obj\Debug\HW03.exe
+C:\Users\dawis\source\repos\HW03\obj\Debug\HW03.pdb
