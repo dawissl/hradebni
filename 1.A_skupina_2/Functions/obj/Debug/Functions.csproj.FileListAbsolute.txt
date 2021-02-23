@@ -5,3 +5,10 @@ C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functio
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.exe
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Functions\bin\Debug\Functions.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Functions\bin\Debug\Functions.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Functions\bin\Debug\Functions.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Functions\obj\Debug\Functions.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Functions\obj\Debug\Functions.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Functions\obj\Debug\Functions.pdb

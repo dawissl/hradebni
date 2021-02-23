@@ -1,0 +1,14 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\bin\Debug\Functions.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\bin\Debug\Functions.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\bin\Debug\Functions.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Functions\bin\Debug\Functions.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Functions\bin\Debug\Functions.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Functions\bin\Debug\Functions.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Functions\obj\Debug\Functions.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Functions\obj\Debug\Functions.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\Functions\obj\Debug\Functions.pdb

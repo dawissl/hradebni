@@ -197,7 +197,7 @@ namespace HW03
         /// <param name="objem">Hodnota objemu telesa</param>
         private static void VypisTeleso(Teleso teleso, double povrch, double objem)
         {
-            Console.WriteLine("\nCharakteristika telesa\n[{0}]: S = {1}, o = {2}\n", teleso, povrch, objem);
+            Console.WriteLine("\nCharakteristika telesa\n[{0}]: S = {1}, V = {2}\n", teleso, povrch, objem);
         }
 
         /// <summary>

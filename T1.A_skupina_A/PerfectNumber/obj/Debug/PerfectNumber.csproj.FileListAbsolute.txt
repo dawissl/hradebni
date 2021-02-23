@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\PerfectNumber\bin\Debug\PerfectNumber.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\PerfectNumber\bin\Debug\PerfectNumber.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\PerfectNumber\bin\Debug\PerfectNumber.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\PerfectNumber\obj\Debug\PerfectNumber.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\PerfectNumber\obj\Debug\PerfectNumber.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\PerfectNumber\obj\Debug\PerfectNumber.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_A\PerfectNumber\obj\Debug\PerfectNumber.pdb
