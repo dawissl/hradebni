@@ -121,7 +121,7 @@ namespace HW03
                 case "D":
                     Kvadr();
                     break;
-                case "C":
+                case "V":
                     Valec();
                     break;
                 case "L":
@@ -162,7 +162,10 @@ namespace HW03
         }
         private static void Koule()
         {
-            throw new NotImplementedException();
+           double r = ZiskejHodnotu("Poloměr");
+            double objem= 4 / 3.0*Math.PI*r*r*r;
+            double povrch = 4 * Math.PI * r * r;
+            VypisTeleso(Teleso.KOULE, povrch, objem);
         }
         private static void Valec()
         {
