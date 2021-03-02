@@ -169,7 +169,12 @@ namespace HW03
         }
         private static void Valec()
         {
-            throw new NotImplementedException();
+            double d = ZiskejHodnotu("prumer valce");
+            double v = ZiskejHodnotu("vyska valce");
+            double r = d / 2;
+            double povrch = 2 * Math.PI * r *(r + v);
+            double objem = Math.PI * Math.Pow(r, 2) * v;
+            VypisTeleso(Teleso.VALEC, povrch, objem);
         }
         /// <summary>
         /// ovladaci menu aplikace

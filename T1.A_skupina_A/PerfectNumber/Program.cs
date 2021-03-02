@@ -12,13 +12,118 @@ namespace PerfectNumber
         {
             PerfectNumber();
 
-            Point2D bod1 = new Point2D(14, 0);
-            Point2D bod2 = new Point2D(0, 0);
-            Point2D bod3 = new Point2D(-1, 3);
+             Point2D bod1 = new Point2D(14, 0);
+             Point2D bod2 = new Point2D(0, 0);
+             Point2D bod3 = new Point2D(-1, 3);
 
-            Vzdalenost(bod1, bod2);
-            bod3.Vzdalenost(bod1);
+             Vzdalenost(bod1, bod2);
+             bod3.Vzdalenost(bod1);
 
+            ChangeOfPrice();
+
+            DecToHex();
+
+            BinToDec();
+
+            DecToBin();
+
+
+        }
+
+        private static void BinToDec()
+        {
+            string cislo = Console.ReadLine();
+            int noveCislo = 0;
+            
+
+            for (int i = 0; i < cislo.Length; i++)
+            {
+                int num = int.Parse(cislo.Substring(cislo.Length - 1 - i, 1));
+                if (num == 1)
+                {
+                    noveCislo += (int)Math.Pow(2, i);
+                }
+            }
+
+            Console.WriteLine("{0}[2] = {1}[10]", cislo, noveCislo);
+
+        }
+
+        private static void DecToHex()
+        {
+            // nacteni cisla v desitkove soustave
+            Console.Write("Cislo [10]:");
+            int cislo = int.Parse(Console.ReadLine());
+            // dokud zbytek po deleni neni 0
+            int zbytek;
+            string noveCislo = "";
+            string[] hex = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" };
+            do
+            {
+                zbytek = cislo % 16;
+                // a urci hodnotu v hexadecimalni soustave
+                noveCislo = hex[zbytek] + noveCislo;
+
+                cislo = cislo / 16;
+
+            } while (cislo != 0);
+            // pak podel cislo 16
+
+
+            //vypsani cisla v hexadecimalni soustave
+            Console.WriteLine("{0}[10] = {1}[16]",cislo,noveCislo);
+        }
+
+        private static void DecToBin()
+        {
+            // nacteni cisla v desitkove soustave
+            int cislo = int.Parse(Console.ReadLine());
+            // dokud zbytek po deleni neni 0
+            int zbytek;
+            string noveCislo = "";
+            string[] bin = { "0", "1" };
+            do
+            {
+                zbytek = cislo % 2;
+                // a urci hodnotu v hexadecimalni soustave
+                noveCislo = bin[zbytek] + noveCislo;
+
+                cislo = cislo / 2;
+
+            } while (cislo != 0);
+
+
+
+            //vypsani cisla v binarni soustave
+            Console.WriteLine("{0}[10] = {1}[2]", cislo, noveCislo);
+
+        }
+
+        private static void ChangeOfPrice()
+        {
+            // nacteni zakladni cena polozky
+            Console.Write("Původní cena produktu [Kč]: ");
+            double price = double.Parse(Console.ReadLine());
+            // nacteni zmeny ceny v %
+            Console.Write("Změna ceny[%]: ");
+            double change = double.Parse(Console.ReadLine());
+            // pokud je zmena kladna -> zvyseni ceny
+            // pokud je cena zaporna -> sleva
+            if (change > 0)
+            {
+                // zvyseni ceny
+                // 1% .... price/100
+                // X% .... (price/100)*change 
+                // vysledna cena ..... price + (price/100)*change
+                price = price + (price / 100) * change;
+            }
+            else
+            {
+                // snizeni ceny
+                price = price + (price / 100) * change;
+            }
+            // vypsani nove ceny
+            Console.WriteLine("Nová cena po změně {0}% je {1}", change, price);
         }
 
         private static void PerfectNumber()

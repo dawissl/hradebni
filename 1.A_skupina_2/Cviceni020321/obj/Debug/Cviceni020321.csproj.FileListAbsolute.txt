@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Cviceni020321\bin\Debug\Cviceni020321.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Cviceni020321\bin\Debug\Cviceni020321.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Cviceni020321\bin\Debug\Cviceni020321.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Cviceni020321\obj\Debug\Cviceni020321.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Cviceni020321\obj\Debug\Cviceni020321.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Cviceni020321\obj\Debug\Cviceni020321.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Cviceni020321\obj\Debug\Cviceni020321.pdb
