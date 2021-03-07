@@ -158,14 +158,15 @@ namespace HW03
         }
         private static void Kuzel()
         {
-            throw new NotImplementedException();
+            double s = ZiskejHodnotu("strana kužele");
+            double r = ZiskejHodnotu("poloměr podstavy");
+            double v = ZiskejHodnotu("výška kužele");
+            VypisTeleso(Teleso.KUZEL, Math.PI * r * (r + s), 1 / 3 * Math.PI * r * r * v);
         }
         private static void Koule()
         {
-           double r = ZiskejHodnotu("Poloměr");
-            double objem= 4 / 3.0*Math.PI*r*r*r;
-            double povrch = 4 * Math.PI * r * r;
-            VypisTeleso(Teleso.KOULE, povrch, objem);
+            double a = ZiskejHodnotu("poloměr koule");
+            VypisTeleso(Teleso.KOULE, 4 * Math.PI * a * a, 4 / 3 * Math.PI * a * a * a);
         }
         private static void Valec()
         {

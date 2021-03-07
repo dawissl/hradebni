@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // Obecné informace o sestavení se řídí přes následující 
 // sadu atributů. Změnou hodnot těchto atributů se upraví informace
 // přidružené k sestavení.
-[assembly: AssemblyTitle("HW03")]
+[assembly: AssemblyTitle("Mines")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HW03")]
+[assembly: AssemblyProduct("Mines")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
-[assembly: AssemblyTrademark("David Sládeček*")]
+[assembly: AssemblyTrademark("David Sládeček")]
 [assembly: AssemblyCulture("")]
 
 // Nastavení ComVisible na false způsobí neviditelnost typů v tomto sestavení
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Následující GUID se používá pro ID knihovny typů, pokud je tento projekt vystavený pro COM.
-[assembly: Guid("c6fb0fae-c6b0-4adc-ac0b-4d6aa74caa65")]
+[assembly: Guid("ea54a366-4e33-46a5-b3a6-abc1e2293fc1")]
 
 // Informace o verzi sestavení se skládá z těchto čtyř hodnot:
 //
