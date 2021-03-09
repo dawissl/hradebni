@@ -15,20 +15,38 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("*** Find the mine game ***");
                 Console.Write("Enter the size of square field: ");
+                try
+                {
+                    MineField mine = new MineField(int.Parse(Console.ReadLine()));
 
-                MineField mine = new MineField(int.Parse(Console.ReadLine()));
+                
                 bool winning = false;
-                Console.WriteLine(mine.ToString());
 
                 while (!winning)
                 {
                     Console.WriteLine("Insert coordinations for search:");
-                    winning = mine.Guess(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+                    try
+                    {
+                        winning = mine.Guess(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
+                    } catch(FormatException e)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine(e.Message);
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
                 }
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write("New game (y/n)?\n>");
                 string instruction = Console.ReadLine().ToLower();
                 if (instruction == "n") work = false;
+
+                }
+                catch (FormatException e)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine(e.Message);
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
 
             } while (work);
 
