@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\OOP_skB\bin\Debug\OOP_skB.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\OOP_skB\bin\Debug\OOP_skB.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\OOP_skB\bin\Debug\OOP_skB.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\OOP_skB\obj\Debug\OOP_skB.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\OOP_skB\obj\Debug\OOP_skB.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\OOP_skB\obj\Debug\OOP_skB.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\T1.A_skupina_B\OOP_skB\obj\Debug\OOP_skB.csprojAssemblyReference.cache
