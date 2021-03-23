@@ -101,7 +101,7 @@ namespace Matrices
             {
                 for (int i = 0; i < 8; i++)
                 {
-                    m[i, j] = rnd.Next(from, to);
+                    m[i, j] = rnd.Next(from, to+1);
                 }
             }
 
