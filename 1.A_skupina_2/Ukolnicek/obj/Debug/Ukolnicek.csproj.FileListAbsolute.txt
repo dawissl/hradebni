@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Ukolnicek\bin\Debug\Ukolnicek.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Ukolnicek\bin\Debug\Ukolnicek.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Ukolnicek\bin\Debug\Ukolnicek.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Ukolnicek\obj\Debug\Ukolnicek.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Ukolnicek\obj\Debug\Ukolnicek.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Ukolnicek\obj\Debug\Ukolnicek.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\Ukolnicek\obj\Debug\Ukolnicek.pdb

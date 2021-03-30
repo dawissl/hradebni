@@ -29,8 +29,32 @@ namespace Ukolnicek
             // deklarace vlastnío Úkolníčku
             Ukolnik nasUkolnik = new Ukolnik();
 
-            //deklarace několika úkolů
-            Ukol u1 = new Ukol("uklidit pokoj");
+            bool work = true;
+            // zakladni kostra ovladani aplikace UKOLNICEK
+            while (work)
+            {
+                string instrukce = Console.ReadLine().ToUpper();
+                switch (instrukce)
+                {
+                    case "ADD":
+                        nasUkolnik.PridejUkol(new Ukol("uklidit pokoj"), 0);
+                        break;
+                    case "RESOLVE":
+                        nasUkolnik.Ukoly[0].Splneno = true;
+                        break;
+                    case "DISPLAY":
+                        nasUkolnik.Prehled(false);
+                        nasUkolnik.Prehled(true);
+                        break;
+                    default:
+                        Console.WriteLine("Neznamá isntrukce");
+                        break;
+                        
+                }
+            }
+
+            //manualni ovladani aplikace
+          /*  Ukol u1 = new Ukol("uklidit pokoj");
             NakupniSeznam n1 = new NakupniSeznam("Nakup na zitra", 3);
             DulezityUkol d1 = new DulezityUkol("Danove priznani", "1.5.2021");
 
@@ -44,7 +68,9 @@ namespace Ukolnicek
 
             // vypis pouze splněných úkolů - need fix
             Console.WriteLine("Náš úkolníček obsahuje:");
-            Console.WriteLine(nasUkolnik.Vypis(true));
+            nasUkolnik.Prehled(true);
+            Console.WriteLine("------------------");
+            nasUkolnik.Prehled(false);*/
         }
     }
 
@@ -58,6 +84,8 @@ namespace Ukolnicek
 
         // konstruktor neuvádíme není třeba přijímat atributy pro vytvoření Ukolniku
 
+
+        public Ukol[] Ukoly { get { return ukoly; } }
         // pridani úkolu na pozici v poli
         public void PridejUkol(Ukol u, int pozice)
         {
@@ -65,31 +93,23 @@ namespace Ukolnicek
         }
 
         // vypsání všech splněných nebo nesplněných úkolů
-        // TODO - need to handle null values
-        public string Vypis(bool spl) {
-            string vystup = "";
+        public void Prehled(bool spl) {
+            string prehled = "";
 
             for (int i = 0; i < ukoly.Length; i++)
             {
-                if (spl)
+                // hodnota null neni pristupna, musime kontrolovat
+                // zda se v poli na dane pozici nevyskytuje
+                if(ukoly[i] != null)
                 {
-                    // null possible - need fix
-                    if (ukoly[i].Splneno)
+                    if (ukoly[i].Splneno == spl)
                     {
-                        vystup += ukoly[i] + "\n";
+                        prehled += ukoly[i].ToString() + "\n";
                     }
-                }
-                else
-                {
-                    // null possible - need fix
-                    if (!ukoly[i].Splneno)
-                    {
-                        vystup += ukoly[i] + "\n";
-                    }
-                }
+                }                
             }
 
-            return vystup;
+            Console.Write(prehled);
         }
 
         // přepsání funkce ToString() pro přehlednější výpis třídy
@@ -132,7 +152,7 @@ namespace Ukolnicek
         // úprava funkce ToString() vypisujeme zadání a info o splnění
         public override string ToString()
         {
-            return text + " - " + splneno;
+            return text;
         }
     }
 
@@ -159,16 +179,22 @@ namespace Ukolnicek
             }
         }
 
+    
+        public int PocetPolozek()
+        {
+            return seznam.Length;
+        }
+
         // úprava funkce ToString() pokud bychom ji neupravili,
         // výpis by byl shodný jako ve třídě Ukol
         public override string ToString()
         {
-            string vystup = Text + " " + Splneno + "\n";
+            string vystup = Text + "\n";
 
-            for (int i = 0; i < seznam.Length; i++)
+            for (int i = 0; i < PocetPolozek(); i++)
             {
                 // "\t" značí odsazení tabulátorem
-                vystup += "\t" + seznam[i] + "\n";
+                vystup += "\t" +"+ " + seznam[i] + "\n";
             }
 
             return vystup;
@@ -186,7 +212,7 @@ namespace Ukolnicek
 
         public override string ToString()
         {
-            return Text + " splnit do: " + datum + " - " + Splneno;
+            return Text + " splnit do: " + datum;
         }
     }
 }

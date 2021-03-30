@@ -44,7 +44,12 @@ namespace Ukolnicek
             u1.Spleno = true;
 
             // vypsaní celého úkolníku
-            Console.WriteLine(nasUkolnik.ToString());
+            Console.Write(nasUkolnik.ToString());
+            Console.WriteLine("----------------");
+            // vypsani pouze splněných úkolů
+            nasUkolnik.Prehled(true);
+            Console.WriteLine("----------------");
+            nasUkolnik.Prehled(false);
 
 
         }
@@ -66,9 +71,35 @@ namespace Ukolnicek
             string vypis = "";
             for (int i = 0; i < 10; i++)
             {
-                vypis = vypis + ukoly[i] + "\n";
+                if (ukoly[i] != null)
+                {
+                    vypis = vypis + ukoly[i] + "\n";
+                }
+                
             }
             return vypis;
+        }
+
+        // vypsani úkolů na základě splnění/nesplěn
+        public void Prehled(bool hotovo)
+        {
+            string vypis = "";
+            for(int i = 0; i < 10; i++)
+            {
+                // pokud na dané pozici úkol není, je zde hodnota null
+                // nad hodnotou null nelze volat žádné funkce
+                // pokud bychom nad ním funkce volali,
+                // vyhodí se nám hláška s výjimkou
+                if (ukoly[i] != null)
+                {
+                    if (ukoly[i].Spleno == hotovo)
+                    {
+                        vypis += ukoly[i].ToString()+"\n";
+                    }
+                }
+            }
+
+            Console.Write(vypis);
         }
 
         // zpřístupnění atributu Ukoly - seznamu úkolů
@@ -126,6 +157,7 @@ namespace Ukolnicek
             // v konstruktoru už můžeme definovat velikost pole a naplnit jej
             // elegantnější by bylo naplnění přesunout do vlastní funkce
             seznam = new string[polozky];
+            Console.WriteLine("Nakupni seznam ({0}):",polozky);
             for (int i = 0; i < polozky; i++)
             {
                 seznam[i] = Console.ReadLine();
@@ -133,7 +165,25 @@ namespace Ukolnicek
 
         }
 
-        // nepřepisujeme funkci ToStrin\g Výpis bude tedy stejný jako u třídy Ukol
+        // vypsani počtu položek seznamu
+        public int PocetPolozek()
+        {
+            return seznam.Length;
+        }
+
+        // override funkce ToString pro vypsání položek v nákupním seznamu
+        public override string ToString()
+        {
+            string nakup = Zadani+":\n";
+            for (int i = 0; i < PocetPolozek(); i++)
+            {
+                nakup = nakup + "\t"+ "+ "+seznam[i] + "\n";
+            }
+            return nakup;
+        }
+
+
+
 
     }
 
