@@ -29,28 +29,54 @@ namespace Ukolnicek
         {
             //deklarace instance třídy Ukolnik
             Ukolnik nasUkolnik = new Ukolnik();
+            bool work = true;
+            Console.WriteLine("Aplikace úkolníček");
+            while (work)
+            {
+                Console.Write("OPERACE: ");
+                string operace = Console.ReadLine().ToUpper();
+                switch (operace)
+                {
+                    case "PRIDEJ":
+                        nasUkolnik.pridejUkol();
+                        break;
+                    case "SPLNENO":
+                        nasUkolnik.oznacitSplneni();
+                        break;
+                    case "VYPIS":
+                        nasUkolnik.Prehled(false);
+                        break;
+                    case "KONEC":
+                        work = false;
+                        break;
+                    default:
+                        Console.WriteLine("Neznámá operace");
+                        break;
+                }
+            }
+
 
             // vytvoření několika úkolů
-            Ukol u1 = new Ukol("uklidit pokoj");
-            NakupniSeznam n1 = new NakupniSeznam("nakup na zitra", 2);
-            DulezityUkol d1 = new DulezityUkol("danove priznani", "1.5.2021");
-            
-            // využítím funkce pridejUkol vložíme na určité pozice vytvořené úkoly
-            nasUkolnik.pridejUkol(u1,2);
-            nasUkolnik.pridejUkol(n1,5);
-            nasUkolnik.pridejUkol(d1,0);
+            /*  Ukol u1 = new Ukol("uklidit pokoj");
+              NakupniSeznam n1 = new NakupniSeznam("nakup na zitra", 2);
+              DulezityUkol d1 = new DulezityUkol("danove priznani", "1.5.2021");
 
-            // využítím přistupové funkce atributu Spleno označíme jeden z úkolů jako hotový
-            u1.Spleno = true;
+              // využítím funkce pridejUkol vložíme na určité pozice vytvořené úkoly
+              nasUkolnik.pridejUkol(u1,2);
+              nasUkolnik.pridejUkol(n1,5);
+              nasUkolnik.pridejUkol(d1,0);
 
-            // vypsaní celého úkolníku
-            Console.Write(nasUkolnik.ToString());
-            Console.WriteLine("----------------");
-            // vypsani pouze splněných úkolů
-            nasUkolnik.Prehled(true);
-            Console.WriteLine("----------------");
-            nasUkolnik.Prehled(false);
+              // využítím přistupové funkce atributu Spleno označíme jeden z úkolů jako hotový
+              u1.Spleno = true;
 
+              // vypsaní celého úkolníku
+              Console.Write(nasUkolnik.ToString());
+              Console.WriteLine("----------------");
+              // vypsani pouze splněných úkolů
+              nasUkolnik.Prehled(true);
+              Console.WriteLine("----------------");
+              nasUkolnik.Prehled(false);
+            */
 
         }
     }
@@ -75,7 +101,7 @@ namespace Ukolnicek
                 {
                     vypis = vypis + ukoly[i] + "\n";
                 }
-                
+
             }
             return vypis;
         }
@@ -84,7 +110,7 @@ namespace Ukolnicek
         public void Prehled(bool hotovo)
         {
             string vypis = "";
-            for(int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++)
             {
                 // pokud na dané pozici úkol není, je zde hodnota null
                 // nad hodnotou null nelze volat žádné funkce
@@ -94,7 +120,7 @@ namespace Ukolnicek
                 {
                     if (ukoly[i].Spleno == hotovo)
                     {
-                        vypis += ukoly[i].ToString()+"\n";
+                        vypis += ukoly[i].ToString() + "\n";
                     }
                 }
             }
@@ -103,12 +129,94 @@ namespace Ukolnicek
         }
 
         // zpřístupnění atributu Ukoly - seznamu úkolů
-        public Ukol[] Ukoly  { get{ return ukoly; } }
+        public Ukol[] Ukoly { get { return ukoly; } }
 
         // přidání úkolu na danou pozici
-        public  void pridejUkol (Ukol u, int index)
+        public void pridejUkol(Ukol u, int index)
         {
             ukoly[index] = u;
+        }
+
+        // přidání úkolu jako podprogram
+        public void pridejUkol()
+        {
+            // původní ruční volba pozice úkolu
+            /*Console.WriteLine("Na jakou pozici úkol přidáme?");
+            int tmp = int.Parse(Console.ReadLine());
+            if (tmp < 0 || tmp >= 10)
+            {
+                return;
+            }*/
+
+            //nově je úkol přidělen na první volnou pozici nebo nahrazuje již splněný úkol
+            int tmp = -1;
+            for(int i = 0; i < 10; i++)
+            {
+                if(ukoly[i] == null)
+                {
+                    tmp = i;
+                    break;
+                }
+                if (ukoly[i] != null && ukoly[i].Spleno)
+                {
+                    tmp = i;
+                    break;
+                }
+            }
+
+            // v případě, že se hodnota v tmp nezměnila, žádný slot není volný
+            // a žádný úkol není splněn
+            if(tmp == -1)
+            {
+                Console.WriteLine("Ukolnik je plny");
+                return;
+            }
+
+            //samotné vytvořené úkolu - ideálně obalit try-catch blokem pro odchycení výjimek
+            Console.WriteLine("Jaky typ úkolu?");
+            string opt = Console.ReadLine().ToLower();
+            Ukol novyUkol;
+            // na základě volby je do proměnné novyUkol inicializovan nový úkol dle typu úkolu
+            switch (opt)
+            {
+                case "zakladni":
+                    novyUkol = new Ukol(Console.ReadLine());
+                    break;
+                case "nakup":
+                    novyUkol = new NakupniSeznam(Console.ReadLine(), int.Parse(Console.ReadLine()));
+                    break;
+                case "dulezity":
+                    novyUkol = new DulezityUkol(Console.ReadLine(), Console.ReadLine());
+                    break;
+                default:
+                    return;
+            }
+            ukoly[tmp] = novyUkol;
+        }
+
+
+        // označení úkolů jako splněný
+        public void oznacitSplneni()
+        {
+            Console.WriteLine("Který úkol je splněný");
+            int tmp = int.Parse(Console.ReadLine());
+            if (tmp < 0 || tmp >= 10)
+            {
+                return;
+            }
+            // v případě, že na dané pozici úkol není nachází se zde hodnota
+            // null o takové hodnotě nelze nic konkrétného říct
+            // musíme tedy zkontrolovat, zda tam opravdu null není,
+            // abychom mohli daný úkol změnit na splněný
+            if(ukoly[tmp] != null)
+            {
+                ukoly[tmp].Spleno = true;
+            }
+            else
+            {
+                Console.WriteLine("Na této pozici úkol není");
+            }
+            
         }
 
     }
@@ -157,7 +265,7 @@ namespace Ukolnicek
             // v konstruktoru už můžeme definovat velikost pole a naplnit jej
             // elegantnější by bylo naplnění přesunout do vlastní funkce
             seznam = new string[polozky];
-            Console.WriteLine("Nakupni seznam ({0}):",polozky);
+            Console.WriteLine("Nakupni seznam ({0}):", polozky);
             for (int i = 0; i < polozky; i++)
             {
                 seznam[i] = Console.ReadLine();
@@ -174,16 +282,13 @@ namespace Ukolnicek
         // override funkce ToString pro vypsání položek v nákupním seznamu
         public override string ToString()
         {
-            string nakup = Zadani+":\n";
+            string nakup = Zadani + ":\n";
             for (int i = 0; i < PocetPolozek(); i++)
             {
-                nakup = nakup + "\t"+ "+ "+seznam[i] + "\n";
+                nakup = nakup + "\t" + "+ " + seznam[i] + "\n";
             }
             return nakup;
         }
-
-
-
 
     }
 
