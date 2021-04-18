@@ -257,6 +257,8 @@ namespace Ukolnicek
         public string Text { get { return text; } }
         public bool Splneno { get { return splneno; } set { splneno = value; } }
 
+  
+
         public Ukol(string zadani)
         {
             text = zadani;
@@ -298,16 +300,17 @@ namespace Ukolnicek
             return seznam.Length;
         }
 
-        public override string ToString()
-        {
-            string vystup = Text + ":\n";
-            for (int i = 0; i < PocetPolozek(); i++)
-            {
-                vystup += "\t * " + seznam[i] + "\n";
-            }
+         public override string ToString()
+          {
+              string vystup = Text + ":\n";
+              for (int i = 0; i < PocetPolozek(); i++)
+              {
+                  vystup += "\t * " + seznam[i] + "\n";
+              }
 
-            return vystup;
-        }
+              return vystup;
+          }
+
     }
 
     /// <summary>

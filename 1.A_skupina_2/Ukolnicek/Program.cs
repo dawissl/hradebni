@@ -124,29 +124,36 @@ namespace Ukolnicek
                 return;
             }
 
-            // vytvoreni samotného úkolu
-            // -> humpolacka implementace lepší odladit pro uživatele
-            Console.WriteLine("Jaky ukol vytorit?");
-            string ukol = Console.ReadLine().ToUpper();
-            Ukol novyUkol;
-            // podle instrukce vytváříme novou instanci úkolu
-            switch (ukol)
+            try
             {
-                case "ZAKLADNI":
-                    novyUkol = new Ukol(Console.ReadLine());
-                    break;
-                case "NAKUP":
-                    novyUkol = new NakupniSeznam(Console.ReadLine(),int.Parse(Console.ReadLine()));
-                    break;
-                case "DULEZITY":
-                    novyUkol = new DulezityUkol(Console.ReadLine(), Console.ReadLine());
-                    break;
-                default:
-                    throw new Exception("Neznamy ukol");
-            }
 
-           // samotné přidání úkolu na danou pozici
-            ukoly[index] = novyUkol;
+                // vytvoreni samotného úkolu
+                // -> humpolacka implementace lepší odladit pro uživatele
+                Console.WriteLine("Jaky ukol vytorit?");
+                string ukol = Console.ReadLine().ToUpper();
+                Ukol novyUkol;
+                // podle instrukce vytváříme novou instanci úkolu
+                switch (ukol)
+                {
+                    case "ZAKLADNI":
+                        novyUkol = new Ukol(Console.ReadLine());
+                        break;
+                    case "NAKUP":
+                        novyUkol = new NakupniSeznam(Console.ReadLine(), int.Parse(Console.ReadLine()));
+                        break;
+                    case "DULEZITY":
+                        novyUkol = new DulezityUkol(Console.ReadLine(), Console.ReadLine());
+                        break;
+                    default:
+                        throw new Exception("Neznamy ukol");
+                }
+
+                // samotné přidání úkolu na danou pozici
+                ukoly[index] = novyUkol;
+            } catch(Exception e)
+            {
+                Console.WriteLine("Chyba při vytváření úkolu: {0}",e.Message);
+            }
         }
 
         /// <summary>
