@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\NakupniKosik\bin\Debug\NakupniKosik.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\NakupniKosik\bin\Debug\NakupniKosik.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\NakupniKosik\bin\Debug\NakupniKosik.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\NakupniKosik\obj\Debug\NakupniKosik.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\NakupniKosik\obj\Debug\NakupniKosik.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\NakupniKosik\obj\Debug\NakupniKosik.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\1.A_skupina_2\NakupniKosik\obj\Debug\NakupniKosik.pdb
