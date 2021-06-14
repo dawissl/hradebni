@@ -45,11 +45,14 @@ namespace OOP_skA
     class Potravina
     {
         private string chut;
+	private int cislo;
         public Potravina(string ch)
         {
             Chut = ch;
+		cislo = 5;
         }
-        public string Chut { get { return chut; } set { chut = value; } }
+        public string Chut { get { return "*"+chut+"/"; } set { chut = value; } }
+
         // funkce, kterou dědí všechny odovzené třídy
         public void JakChutnas()
         {
@@ -99,6 +102,7 @@ namespace OOP_skA
             return 20;
         }
     }
+
 
 
 }

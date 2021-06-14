@@ -15,13 +15,13 @@ namespace Functions
             Console.WriteLine("Získaný výstup: {0}", result_0);
 
             // Funkce 1 //
-            /* int[] input_1 = {1 , 6, -2};
+             int[] input_1 = {1 , 6, -2};
              int[] expected_1 = {-2,1,6 };
              int[] result_1 = Function1(input_1[0], input_1[1], input_1[2]);
              Console.WriteLine("Funkce 1\n----------");
              Console.WriteLine("Očekávaný výstup: {0}, {1}, {2}", expected_1[0], expected_1[1], expected_1[2]);
              Console.WriteLine("Získaný výstup: {0}, {1}, {2}", result_1[0], result_1[1], result_1[2]);
-            */
+            
 
             // Funkce 2 //
             /* int[] input_2 = { 1, 6, -2, 5 };
@@ -140,6 +140,12 @@ namespace Functions
 
 
         }
+
+        private static int[] Function1(int v1, int v2, int v3)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Demo funkce pro cvičení z předmětu programování
         /// </summary>
