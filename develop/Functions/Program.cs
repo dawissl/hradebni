@@ -143,7 +143,33 @@ namespace Functions
 
         private static int[] Function1(int v1, int v2, int v3)
         {
-            throw new NotImplementedException();
+            int[] arr = { v1, v2, v3 };
+
+            Array.Sort(arr);
+           
+           /* if(v1 > v2)
+            {
+                arr[1] = v1;
+                arr[0] = v2;
+
+            }
+
+            if (v2 > v3)
+            {
+             
+                arr[1] = v3;
+                arr[2] = v2;
+            }
+
+            if (arr[0] > arr[1])
+            {
+                int tmp = arr[1];
+                arr[1] = arr[0];
+                arr[0] = tmp;
+
+            }*/
+
+            return arr;
         }
 
         /// <summary>

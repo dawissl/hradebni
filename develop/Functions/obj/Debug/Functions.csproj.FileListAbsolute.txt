@@ -5,3 +5,8 @@ C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functio
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.exe
 C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.pdb
+P:\Vyuka\Repo\hradebni\develop\Functions\bin\Debug\Functions.exe.config
+P:\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.exe
+P:\Vyuka\Repo\hradebni\develop\Functions\obj\Debug\Functions.pdb
+P:\Vyuka\Repo\hradebni\develop\Functions\bin\Debug\Functions.exe
+P:\Vyuka\Repo\hradebni\develop\Functions\bin\Debug\Functions.pdb
