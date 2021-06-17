@@ -1,0 +1,7 @@
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ParkingLot\ParkingLot\obj\Debug\ParkingLot.csprojAssemblyReference.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ParkingLot\ParkingLot\obj\Debug\ParkingLot.csproj.CoreCompileInputs.cache
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ParkingLot\ParkingLot\bin\Debug\ParkingLot.exe.config
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ParkingLot\ParkingLot\bin\Debug\ParkingLot.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ParkingLot\ParkingLot\bin\Debug\ParkingLot.pdb
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ParkingLot\ParkingLot\obj\Debug\ParkingLot.exe
+C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\ParkingLot\ParkingLot\obj\Debug\ParkingLot.pdb
