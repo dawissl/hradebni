@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Následující GUID se používá pro ID knihovny typů, pokud je tento projekt vystavený pro COM.
-[assembly: Guid("8fd10797-3970-4ad5-9aa8-497680ceb928")]
+[assembly: Guid("d5b0c5ba-4183-417d-aa08-08348add9f46")]
 
 // Informace o verzi sestavení se skládá z těchto čtyř hodnot:
 //

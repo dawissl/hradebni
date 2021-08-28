@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8FD10797-3970-4AD5-9AA8-497680CEB928}</ProjectGuid>
+    <ProjectGuid>{D5B0C5BA-4183-417D-AA08-08348ADD9F46}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>triangleApp</RootNamespace>
