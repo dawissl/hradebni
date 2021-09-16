@@ -61,6 +61,7 @@
             this.BtnSub.TabIndex = 1;
             this.BtnSub.Text = "-";
             this.BtnSub.UseVisualStyleBackColor = true;
+            this.BtnSub.Click += new System.EventHandler(this.BtnSub_Click);
             // 
             // BtnMul
             // 
@@ -71,6 +72,7 @@
             this.BtnMul.TabIndex = 2;
             this.BtnMul.Text = "*";
             this.BtnMul.UseVisualStyleBackColor = true;
+            this.BtnMul.Click += new System.EventHandler(this.BtnMul_Click);
             // 
             // BtnDiv
             // 
@@ -81,6 +83,7 @@
             this.BtnDiv.TabIndex = 3;
             this.BtnDiv.Text = "/";
             this.BtnDiv.UseVisualStyleBackColor = true;
+            this.BtnDiv.Click += new System.EventHandler(this.BtnDiv_Click);
             // 
             // LblResult
             // 
@@ -92,14 +95,36 @@
             // 
             // NumA
             // 
+            this.NumA.DecimalPlaces = 1;
+            this.NumA.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.NumA.Location = new System.Drawing.Point(56, 45);
+            this.NumA.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.NumA.Name = "NumA";
             this.NumA.Size = new System.Drawing.Size(152, 20);
             this.NumA.TabIndex = 5;
             // 
             // NumB
             // 
+            this.NumB.DecimalPlaces = 1;
+            this.NumB.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.NumB.Location = new System.Drawing.Point(231, 45);
+            this.NumB.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.NumB.Name = "NumB";
             this.NumB.Size = new System.Drawing.Size(152, 20);
             this.NumB.TabIndex = 6;

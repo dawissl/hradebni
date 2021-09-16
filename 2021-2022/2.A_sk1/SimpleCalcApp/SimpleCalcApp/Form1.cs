@@ -19,40 +19,43 @@ namespace SimpleCalcApp
 
         private double numA, numB;
 
-        private void BtnMul_Click(object sender, EventArgs e)
+        private void BtnAdd_Click(object sender, EventArgs e)
         {
             LoadNumbers();
-            LblResult.Text = (numA * numB).ToString();
 
+            Lblresult.Text = (numB + numA).ToString();
         }
 
-        private void BtnSub_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            LoadNumbers();
-            LblResult.Text = (numA - numB).ToString();
+            MessageBox.Show("Simple Calc App","Info");
         }
 
         private void BtnDiv_Click(object sender, EventArgs e)
         {
             LoadNumbers();
-            if (numB == 0)
-            {
-                MessageBox.Show("Nelze dělit nulou!");
-            }
-            LblResult.Text = (numA / numB).ToString();
+            Lblresult.Text = (numA / numB).ToString();
         }
 
-        private void BtnAdd_Click(object sender, EventArgs e)
+        private void BtnSub_Click(object sender, EventArgs e)
         {
             LoadNumbers();
-            LblResult.Text = (numA + numB).ToString();
+            Lblresult.Text = (numA - numB).ToString();
+        }
+
+        private void BtnMul_Click(object sender, EventArgs e)
+        {
+            LoadNumbers();
+
+            Lblresult.Text = (numB * numA).ToString();
         }
 
         private void LoadNumbers()
         {
             numA = Convert.ToDouble(NumA.Value);
             numB = Convert.ToDouble(NumB.Value);
-
         }
+
+
     }
 }
