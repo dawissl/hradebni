@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzaCisla", "AnalyzaCisla\AnalyzaCisla.csproj", "{E9211EDB-DC13-4E9B-A663-E3FB26BC9C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9211EDB-DC13-4E9B-A663-E3FB26BC9C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9211EDB-DC13-4E9B-A663-E3FB26BC9C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9211EDB-DC13-4E9B-A663-E3FB26BC9C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9211EDB-DC13-4E9B-A663-E3FB26BC9C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E26D9FFA-642F-481D-AC89-B67C475AB417}
+	EndGlobalSection
+EndGlobal
