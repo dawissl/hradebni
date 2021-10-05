@@ -1,0 +1,16 @@
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\bin\Debug\net5.0\Greetings.exe
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\bin\Debug\net5.0\Greetings.deps.json
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\bin\Debug\net5.0\Greetings.runtimeconfig.json
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\bin\Debug\net5.0\Greetings.runtimeconfig.dev.json
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\bin\Debug\net5.0\Greetings.dll
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\bin\Debug\net5.0\ref\Greetings.dll
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\bin\Debug\net5.0\Greetings.pdb
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\Greetings.csproj.AssemblyReference.cache
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\Greetings.GeneratedMSBuildEditorConfig.editorconfig
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\Greetings.AssemblyInfoInputs.cache
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\Greetings.AssemblyInfo.cs
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\Greetings.csproj.CoreCompileInputs.cache
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\Greetings.dll
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\ref\Greetings.dll
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\Greetings.pdb
+P:\Vyuka\Repo\hradebni\2021-2022\T1.A_skB\Greetings\Greetings\obj\Debug\net5.0\Greetings.genruntimeconfig.cache
