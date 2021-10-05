@@ -35,13 +35,15 @@
             // 
             // TxtNumber
             // 
-            this.TxtNumber.Location = new System.Drawing.Point(130, 28);
+            this.TxtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TxtNumber.Location = new System.Drawing.Point(82, 34);
             this.TxtNumber.Name = "TxtNumber";
-            this.TxtNumber.Size = new System.Drawing.Size(188, 20);
+            this.TxtNumber.Size = new System.Drawing.Size(281, 35);
             this.TxtNumber.TabIndex = 0;
             // 
             // BtnAnalyze
             // 
+            this.BtnAnalyze.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.BtnAnalyze.Location = new System.Drawing.Point(130, 75);
             this.BtnAnalyze.Name = "BtnAnalyze";
             this.BtnAnalyze.Size = new System.Drawing.Size(196, 86);
@@ -53,6 +55,7 @@
             // LblAnalyze
             // 
             this.LblAnalyze.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LblAnalyze.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LblAnalyze.Location = new System.Drawing.Point(29, 181);
             this.LblAnalyze.Name = "LblAnalyze";
             this.LblAnalyze.Size = new System.Drawing.Size(400, 129);

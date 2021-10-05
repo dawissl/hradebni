@@ -32,15 +32,16 @@ namespace AnalyzaCisla
 
         private string CheckPerfect(int number)
         {
+            
             int suma = 1;
             for (int i = 2; i < number; i++)
             {
-                if((number % i) == 0)
+                if ((number % i) == 0)
                 {
                     suma += i;
                 }
             }
-            if(suma == number)
+            if (suma == number)
             {
                 return "dokonalé číslo";
             }
@@ -52,7 +53,17 @@ namespace AnalyzaCisla
 
         private string CheckDivider(int number)
         {
-            return "dividers";
+            string result = "Dělitelé: ";
+            if (number == 0) return result;
+            for (int divider = 2; divider <= 9; divider++)
+            {
+                if ((number % divider) == 0)
+                {
+                    // result = result + xxx <=> result += xxx
+                    result += divider + ", ";
+                }
+            }
+            return result;
         }
 
         private string CheckPositiveNegative(int number)
@@ -69,7 +80,15 @@ namespace AnalyzaCisla
 
         private string CheckPrime(int number)
         {
-            return "prime";
+            if(number <= 1) { return ""; }
+            for (int i = 2; i <= number / 2; i++)
+            {
+                if ((number % i) == 0)
+                {
+                    return "";
+                }
+            }
+            return "prvočíslo, ";
         }
 
         private string CheckEvenOdd(int number)
