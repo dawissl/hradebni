@@ -39,17 +39,16 @@ namespace BoolAlgebra
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.CheckBoxNegA = new System.Windows.Forms.CheckBox();
+            this.CheckBoxNegB = new System.Windows.Forms.CheckBox();
+            this.Txt1 = new System.Windows.Forms.TextBox();
+            this.Txt2 = new System.Windows.Forms.TextBox();
+            this.Txt3 = new System.Windows.Forms.TextBox();
+            this.Txt4 = new System.Windows.Forms.TextBox();
+            this.RadioAnd = new System.Windows.Forms.RadioButton();
+            this.RadioXOR = new System.Windows.Forms.RadioButton();
+            this.RadioOR = new System.Windows.Forms.RadioButton();
+            this.BtnCompute = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -160,122 +159,112 @@ namespace BoolAlgebra
             this.label10.TabIndex = 9;
             this.label10.Text = "0";
             // 
-            // checkBox1
+            // CheckBoxNegA
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(74, 29);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(37, 19);
-            this.checkBox1.TabIndex = 10;
-            this.checkBox1.Text = "!A";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.CheckBoxNegA.AutoSize = true;
+            this.CheckBoxNegA.Location = new System.Drawing.Point(74, 29);
+            this.CheckBoxNegA.Name = "CheckBoxNegA";
+            this.CheckBoxNegA.Size = new System.Drawing.Size(37, 19);
+            this.CheckBoxNegA.TabIndex = 10;
+            this.CheckBoxNegA.Text = "!A";
+            this.CheckBoxNegA.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // CheckBoxNegB
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(149, 29);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(36, 19);
-            this.checkBox2.TabIndex = 11;
-            this.checkBox2.Text = "!B";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.CheckBoxNegB.AutoSize = true;
+            this.CheckBoxNegB.Location = new System.Drawing.Point(149, 29);
+            this.CheckBoxNegB.Name = "CheckBoxNegB";
+            this.CheckBoxNegB.Size = new System.Drawing.Size(36, 19);
+            this.CheckBoxNegB.TabIndex = 11;
+            this.CheckBoxNegB.Text = "!B";
+            this.CheckBoxNegB.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // Txt1
             // 
-            this.textBox1.Location = new System.Drawing.Point(235, 127);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(44, 23);
-            this.textBox1.TabIndex = 12;
+            this.Txt1.Location = new System.Drawing.Point(235, 127);
+            this.Txt1.Name = "Txt1";
+            this.Txt1.Size = new System.Drawing.Size(44, 23);
+            this.Txt1.TabIndex = 12;
             // 
-            // textBox2
+            // Txt2
             // 
-            this.textBox2.Location = new System.Drawing.Point(235, 169);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(44, 23);
-            this.textBox2.TabIndex = 13;
+            this.Txt2.Location = new System.Drawing.Point(235, 169);
+            this.Txt2.Name = "Txt2";
+            this.Txt2.Size = new System.Drawing.Size(44, 23);
+            this.Txt2.TabIndex = 13;
             // 
-            // textBox3
+            // Txt3
             // 
-            this.textBox3.Location = new System.Drawing.Point(235, 209);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(44, 23);
-            this.textBox3.TabIndex = 14;
+            this.Txt3.Location = new System.Drawing.Point(235, 209);
+            this.Txt3.Name = "Txt3";
+            this.Txt3.Size = new System.Drawing.Size(44, 23);
+            this.Txt3.TabIndex = 14;
             // 
-            // textBox4
+            // Txt4
             // 
-            this.textBox4.Location = new System.Drawing.Point(235, 241);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(44, 23);
-            this.textBox4.TabIndex = 15;
+            this.Txt4.Location = new System.Drawing.Point(235, 241);
+            this.Txt4.Name = "Txt4";
+            this.Txt4.Size = new System.Drawing.Size(44, 23);
+            this.Txt4.TabIndex = 15;
             // 
-            // radioButton1
+            // RadioAnd
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(416, 105);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(50, 19);
-            this.radioButton1.TabIndex = 16;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "AND";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.RadioAnd.AutoSize = true;
+            this.RadioAnd.Location = new System.Drawing.Point(416, 105);
+            this.RadioAnd.Name = "RadioAnd";
+            this.RadioAnd.Size = new System.Drawing.Size(50, 19);
+            this.RadioAnd.TabIndex = 16;
+            this.RadioAnd.TabStop = true;
+            this.RadioAnd.Text = "AND";
+            this.RadioAnd.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // RadioXOR
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(416, 173);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(48, 19);
-            this.radioButton2.TabIndex = 17;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "XOR";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.RadioXOR.AutoSize = true;
+            this.RadioXOR.Location = new System.Drawing.Point(416, 173);
+            this.RadioXOR.Name = "RadioXOR";
+            this.RadioXOR.Size = new System.Drawing.Size(48, 19);
+            this.RadioXOR.TabIndex = 17;
+            this.RadioXOR.TabStop = true;
+            this.RadioXOR.Text = "XOR";
+            this.RadioXOR.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // RadioOR
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(416, 141);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(41, 19);
-            this.radioButton3.TabIndex = 18;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "OR";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.RadioOR.AutoSize = true;
+            this.RadioOR.Location = new System.Drawing.Point(416, 141);
+            this.RadioOR.Name = "RadioOR";
+            this.RadioOR.Size = new System.Drawing.Size(41, 19);
+            this.RadioOR.TabIndex = 18;
+            this.RadioOR.TabStop = true;
+            this.RadioOR.Text = "OR";
+            this.RadioOR.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // BtnCompute
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(416, 80);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(29, 19);
-            this.checkBox3.TabIndex = 19;
-            this.checkBox3.Text = "!";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(360, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 41);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Compute";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnCompute.Location = new System.Drawing.Point(360, 231);
+            this.BtnCompute.Name = "BtnCompute";
+            this.BtnCompute.Size = new System.Drawing.Size(104, 41);
+            this.BtnCompute.TabIndex = 20;
+            this.BtnCompute.Text = "Compute";
+            this.BtnCompute.UseVisualStyleBackColor = true;
+            this.BtnCompute.Click += new System.EventHandler(this.BtnCompute_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 313);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.BtnCompute);
+            this.Controls.Add(this.RadioOR);
+            this.Controls.Add(this.RadioXOR);
+            this.Controls.Add(this.RadioAnd);
+            this.Controls.Add(this.Txt4);
+            this.Controls.Add(this.Txt3);
+            this.Controls.Add(this.Txt2);
+            this.Controls.Add(this.Txt1);
+            this.Controls.Add(this.CheckBoxNegB);
+            this.Controls.Add(this.CheckBoxNegA);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -305,17 +294,16 @@ namespace BoolAlgebra
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox CheckBoxNegA;
+        private System.Windows.Forms.CheckBox CheckBoxNegB;
+        private System.Windows.Forms.TextBox Txt1;
+        private System.Windows.Forms.TextBox Txt2;
+        private System.Windows.Forms.TextBox Txt3;
+        private System.Windows.Forms.TextBox Txt4;
+        private System.Windows.Forms.RadioButton RadioAnd;
+        private System.Windows.Forms.RadioButton RadioXOR;
+        private System.Windows.Forms.RadioButton RadioOR;
+        private System.Windows.Forms.Button BtnCompute;
     }
 }
 
