@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PrekladacZnaku": {
+      "commandName": "Project",
+      "commandLineArgs": "-b"
+    }
+  }
+}
