@@ -28,7 +28,7 @@ namespace UserFormApp
         private void BtnAdd_Click(object sender, EventArgs e)
         {
             ListBoxUsers.Items.Add(TxtName.Text);
-            //ListBoxUsers.Items.Add(new Person(TxtName.Text, TxtSurname.Text));
+           // ListBoxUsers.Items.Add(new Person(TxtName.Text, TxtSurname.Text));
 
             
         }
