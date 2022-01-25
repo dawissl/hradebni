@@ -3,9 +3,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <Copyright>DDDDD</Copyright>
-    <Description>Aplikace PGM</Description>
-    <Authors>DS</Authors>
   </PropertyGroup>
 
 </Project>

@@ -1,9 +1,15 @@
 ﻿using System;
-
+/// <summary>
+///  author = David Sládeček
+/// </summary>
 namespace Cycle
 {
     class Program
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             // Console.WriteLine("Zadejte číslo:");
