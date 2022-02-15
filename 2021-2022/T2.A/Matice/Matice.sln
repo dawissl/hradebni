@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matice", "Matice\Matice.csproj", "{58C6E5AC-7D58-4410-8A45-2C70BC6A028A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58C6E5AC-7D58-4410-8A45-2C70BC6A028A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C6E5AC-7D58-4410-8A45-2C70BC6A028A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C6E5AC-7D58-4410-8A45-2C70BC6A028A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C6E5AC-7D58-4410-8A45-2C70BC6A028A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CF151B5-3FA7-4746-949D-40AAD854B24D}
+	EndGlobalSection
+EndGlobal
