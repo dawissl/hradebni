@@ -11,3 +11,13 @@ C:\Users\dawis\Documents\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices
 P:\Vyuka\Repo\hradebni\develop\Matrices\bin\Debug\Matrices.exe.config
 P:\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.exe
 P:\Vyuka\Repo\hradebni\develop\Matrices\obj\Debug\Matrices.pdb
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\bin\Debug\Matrices.exe.config
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\bin\Debug\Matrices.exe
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\bin\Debug\Matrices.pdb
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\obj\Debug\Matrices.csproj.AssemblyReference.cache
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\obj\Debug\Matrices.Form1.resources
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\obj\Debug\Matrices.Properties.Resources.resources
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\obj\Debug\Matrices.csproj.GenerateResource.cache
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\obj\Debug\Matrices.csproj.CoreCompileInputs.cache
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\obj\Debug\Matrices.exe
+P:\Vyuka\Repo\hradebni\develop\2020-21\Matrices\obj\Debug\Matrices.pdb
