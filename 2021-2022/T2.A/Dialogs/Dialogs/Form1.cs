@@ -34,6 +34,7 @@ namespace Dialogs
         private void FormularPocitani()
         {
             Form pocet = new Form();
+            pocet.Text = "Počítadlo";
 
             // počet slov
             Label slova = new Label();
@@ -48,7 +49,7 @@ namespace Dialogs
 
             pocet.Controls.Add(slova);
             pocet.Controls.Add(znaky);
-            pocet.Show();
+            pocet.ShowDialog();
         }
 
         private void BtnColour_Click(object sender, EventArgs e)
