@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animace", "Animace\Animace.csproj", "{8BA2E711-B8FF-4465-8ACD-E94A4F6DE4FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BA2E711-B8FF-4465-8ACD-E94A4F6DE4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA2E711-B8FF-4465-8ACD-E94A4F6DE4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA2E711-B8FF-4465-8ACD-E94A4F6DE4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA2E711-B8FF-4465-8ACD-E94A4F6DE4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E04573C-5CFB-49E4-A46C-B448FA8E9B0A}
+	EndGlobalSection
+EndGlobal
