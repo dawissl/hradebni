@@ -52,7 +52,7 @@
             this.NumLayers.Size = new System.Drawing.Size(120, 23);
             this.NumLayers.TabIndex = 0;
             this.NumLayers.Value = new decimal(new int[] {
-            30,
+            2,
             0,
             0,
             0});

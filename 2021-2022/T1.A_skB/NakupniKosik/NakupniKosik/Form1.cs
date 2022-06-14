@@ -62,6 +62,25 @@ namespace NakupniKosik
             TxtWeight.Text = "";
             ComboType.Text = "";
         }
+
+        private void ComboType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (ComboType.Text)
+            {
+                case "Zboží":
+                    TxtUsedBy.Enabled = false;
+                    TxtWeight.Enabled = false;
+                    break;
+                case "Potravina":
+                    TxtUsedBy.Enabled = false;
+                    TxtWeight.Enabled = true;
+                    break;
+                case "Drogerie":
+                    TxtUsedBy.Enabled = true;
+                    TxtWeight.Enabled = false;
+                    break;
+            }
+        }
     }
 
     class Zbozi

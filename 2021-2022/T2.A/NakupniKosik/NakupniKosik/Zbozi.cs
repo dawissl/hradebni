@@ -8,5 +8,13 @@ namespace NakupniKosik
 {
     internal class Zbozi
     {
+        private string nazev;
+        private double cena;
+
+        public Zbozi(string n, double c)
+        {
+            nazev = n;
+            cena = c;
+        }
     }
 }

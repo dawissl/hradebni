@@ -48,6 +48,7 @@
             this.TxtName.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TxtName.Location = new System.Drawing.Point(148, 37);
             this.TxtName.Name = "TxtName";
+            this.TxtName.PlaceholderText = "nazev";
             this.TxtName.Size = new System.Drawing.Size(156, 39);
             this.TxtName.TabIndex = 0;
             // 
@@ -127,6 +128,7 @@
             this.ComboType.Name = "ComboType";
             this.ComboType.Size = new System.Drawing.Size(271, 40);
             this.ComboType.TabIndex = 8;
+            this.ComboType.SelectedIndexChanged += new System.EventHandler(this.ComboType_SelectedIndexChanged);
             // 
             // BtnInsert
             // 
