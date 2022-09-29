@@ -53,17 +53,21 @@ namespace _02_RozdelTym
         private void BtnTeam_Click(object sender, EventArgs e)
         {
             int rozdeleni = hraci.Count / (int) NumTeamSize.Value;
+            int zbytek = hraci.Count % (int)NumTeamSize.Value;
             int tmp = 0;
             string vystup = "";
             foreach(string s in hraci)
             {
                 if(tmp == rozdeleni)
                 {
+                    
                     vystup += "---------" + Environment.NewLine;
                     tmp = 0;
                 }
                 vystup += s + Environment.NewLine;
-                tmp++;
+                
+                
+                
             }
             LblTeams.Text = vystup;
             
