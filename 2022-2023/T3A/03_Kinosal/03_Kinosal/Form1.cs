@@ -28,15 +28,16 @@ namespace _03_Kinosal
             }
 
             VymazKino();
+            // inicializace nového pole
             kino = new Label[size, size];
-            // nahradit naplnenim Label[,] kino
-           Label sedacka =  VytvorSedacku(0, 0);
 
-            // pridani sedacky do formuláře
-            Controls.Add(sedacka);
-            for (int i = 0; i < kino.GetLength(0);i++)
+            for (int i = 0; i < kino.GetLength(0); i++)
             {
-                
+                for (int j = 0; j < kino.GetLength(1); j++)
+                {
+                    kino[i, j] = VytvorSedacku(i, j);
+                    Controls.Add(kino[i, j]);
+                }
             }
 
         }
@@ -49,15 +50,34 @@ namespace _03_Kinosal
             l.Height = 20;
             l.BackColor = Color.Green;
             // TODO metoda pro obarveni
+            l.Click += new EventHandler(this.Seat_Click);
             // $ = alt + 36
-            l.Name = $"sedadlo_{v1+1}_{v2+1}";
+            l.Name = $"sedadlo_{v1 + 1}_{v2 + 1}";
             return l;
+        }
+        private void Seat_Click(object sender, EventArgs e)
+        {
+            if((sender as Label).BackColor == Color.Green)
+            {
+                (sender as Label).BackColor = Color.Red;
+            }
+            else
+            {
+                MessageBox.Show($"Sedačka { (sender as Label).Name} je obsazena");
+            }
         }
 
         private void VymazKino()
         {
             if (kino == null) return;
-
+            // vyprazdni naplnene kino
+            for (int i = 0; i < kino.GetLength(0); i++)
+            {
+                for (int j = 0; j < kino.GetLength(1); j++)
+                {
+                    Controls.Remove(kino[i, j]);
+                }
+            }
 
         }
     }
