@@ -28,5 +28,11 @@ namespace _04_Obrazce
         {
             return 0;
         }
+
+        public override string ToString()
+        {
+            // $ = alt + 36
+            return $"Obvod: {Obvod()}, Obsah: {Obsah()}";
+        }
     }
 }

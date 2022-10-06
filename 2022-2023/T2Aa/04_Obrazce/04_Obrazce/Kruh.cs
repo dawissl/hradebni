@@ -27,6 +27,7 @@ namespace _04_Obrazce
 
         public override string ToString()
         {
+            //$ = alt + 36
             return $"Kruh - S:{Obsah()}, o:{Obvod()}";
         }
     }

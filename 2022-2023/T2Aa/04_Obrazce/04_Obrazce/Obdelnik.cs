@@ -26,5 +26,10 @@ namespace _04_Obrazce
         {
             return 2 * a + 2 * b;
         }
+
+        public override string ToString()
+        {
+            return "Obdelnik- " + base.ToString();
+        }
     }
 }

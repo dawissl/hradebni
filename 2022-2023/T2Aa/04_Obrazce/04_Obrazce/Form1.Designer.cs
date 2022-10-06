@@ -126,6 +126,7 @@ namespace _04_Obrazce
             this.BtnAdd.TabIndex = 8;
             this.BtnAdd.Text = "Přidat obrazec";
             this.BtnAdd.UseVisualStyleBackColor = true;
+            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // BtnRemove
             // 
@@ -136,6 +137,7 @@ namespace _04_Obrazce
             this.BtnRemove.TabIndex = 9;
             this.BtnRemove.Text = "Odebrat poslední";
             this.BtnRemove.UseVisualStyleBackColor = true;
+            this.BtnRemove.Click += new System.EventHandler(this.BtnRemove_Click);
             // 
             // RadioRectangle
             // 
@@ -175,7 +177,7 @@ namespace _04_Obrazce
             // 
             // LblOut
             // 
-            this.LblOut.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.LblOut.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.LblOut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LblOut.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.LblOut.Location = new System.Drawing.Point(31, 211);
@@ -204,7 +206,6 @@ namespace _04_Obrazce
             this.Controls.Add(this.TxtA);
             this.Name = "Form1";
             this.Text = "Form1";
-           // this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

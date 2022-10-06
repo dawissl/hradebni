@@ -28,5 +28,9 @@ namespace _04_Obrazce
         {
             return a+b+c;
         }
+        public override string ToString()
+        {
+            return "Trojuhelnik- " + base.ToString();
+        }
     }
 }

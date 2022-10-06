@@ -137,6 +137,7 @@ namespace _04_Obrazce
             this.BtnRemove.TabIndex = 9;
             this.BtnRemove.Text = "Odebrat poslední";
             this.BtnRemove.UseVisualStyleBackColor = true;
+            this.BtnRemove.Click += new System.EventHandler(this.BtnRemove_Click);
             // 
             // RadioRectangle
             // 
@@ -149,6 +150,7 @@ namespace _04_Obrazce
             this.RadioRectangle.TabStop = true;
             this.RadioRectangle.Text = "obdélník";
             this.RadioRectangle.UseVisualStyleBackColor = true;
+            this.RadioRectangle.CheckedChanged += new System.EventHandler(this.RadioRectangle_CheckedChanged);
             // 
             // RadioCircle
             // 
@@ -161,6 +163,7 @@ namespace _04_Obrazce
             this.RadioCircle.TabStop = true;
             this.RadioCircle.Text = "kruh";
             this.RadioCircle.UseVisualStyleBackColor = true;
+            this.RadioCircle.CheckedChanged += new System.EventHandler(this.RadioCircle_CheckedChanged);
             // 
             // RadioTriangle
             // 
@@ -173,6 +176,7 @@ namespace _04_Obrazce
             this.RadioTriangle.TabStop = true;
             this.RadioTriangle.Text = "trojúhelník";
             this.RadioTriangle.UseVisualStyleBackColor = true;
+            this.RadioTriangle.CheckedChanged += new System.EventHandler(this.RadioTriangle_CheckedChanged);
             // 
             // LblOut
             // 
@@ -181,14 +185,15 @@ namespace _04_Obrazce
             this.LblOut.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.LblOut.Location = new System.Drawing.Point(31, 211);
             this.LblOut.Name = "LblOut";
-            this.LblOut.Size = new System.Drawing.Size(535, 378);
+            this.LblOut.Size = new System.Drawing.Size(825, 378);
             this.LblOut.TabIndex = 13;
+            this.LblOut.Click += new System.EventHandler(this.LblOut_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(589, 610);
+            this.ClientSize = new System.Drawing.Size(895, 610);
             this.Controls.Add(this.LblOut);
             this.Controls.Add(this.RadioTriangle);
             this.Controls.Add(this.RadioCircle);
