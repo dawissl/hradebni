@@ -13,8 +13,20 @@ namespace _05_Duel
         private int attackMin;
         private int defense;
         private string name;
+        private bool potion = true;
 
-        public int Hp { get { return hp; } set { hp -= value; } }
+        public int Hp { get { return hp; } set { UpdateHP(value); } }
+
+        private void UpdateHP(int value)
+        {
+            hp -= value;
+            if (hp < 30 && potion)
+            {
+                hp += new Random().Next(20, 51);
+                potion = false;
+            }
+        }
+
         public int AttackMax { get { return attackMax; } }
         public int AttackMin { get { return attackMin; } }
         public int Defense { get { return defense; } }
@@ -28,6 +40,11 @@ namespace _05_Duel
         public override string ToString()
         {
             return $"{name}: HP[{hp}]";
+        }
+
+        public void RestoreHP()
+        {
+            hp = 100;
         }
 
 
