@@ -15,9 +15,10 @@ namespace _05_KnihaJizd
         private string spzVozidla;
 
         public string Ridic { get { return ridic; } }
-        /// TODO zbyle atributy
-        /// 
-
+        public string Zbozi { get { return zbozi; } }
+        public string Vozidlo { get { return vozidlo; }}
+        public string Spz { get { return spzVozidla; } }
+        public string Datum { get { return datum; } }
         public Jizda(string _ridic, string _datum, string _zbozi, string _vozidlo, string _spz)
         {
             ridic = _ridic;
@@ -25,6 +26,12 @@ namespace _05_KnihaJizd
             datum = _datum;
             vozidlo = _vozidlo;
             spzVozidla = _spz;
+        }
+
+        public override string ToString()
+        {
+            return $"{datum} - {vozidlo}";
+
         }
     }
 }
