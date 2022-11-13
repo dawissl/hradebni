@@ -1,4 +1,4 @@
-namespace _02_RozdeleniTymu
+namespace _06_VolebniGraf
 {
     internal static class Program
     {
