@@ -26,6 +26,7 @@ namespace _05_MortalKombat
                 return;
             }
 
+	    LblOut.Text = "";
             Fighter playerOne = (Fighter)ComboPlayerOne.SelectedItem;
             Fighter playerTwo = (Fighter)ComboPlayerTwo.SelectedItem;
 
