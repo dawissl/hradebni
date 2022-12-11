@@ -38,7 +38,7 @@
             this.BtnAddMoney = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.LblAmount = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.LblOut = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -137,14 +137,14 @@
             this.LblAmount.Size = new System.Drawing.Size(211, 30);
             this.LblAmount.TabIndex = 9;
             // 
-            // label5
+            // LblOut
             // 
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(178, 336);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(561, 347);
-            this.label5.TabIndex = 11;
+            this.LblOut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblOut.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LblOut.Location = new System.Drawing.Point(178, 336);
+            this.LblOut.Name = "LblOut";
+            this.LblOut.Size = new System.Drawing.Size(561, 347);
+            this.LblOut.TabIndex = 11;
             // 
             // label6
             // 
@@ -161,7 +161,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(775, 692);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.LblOut);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.LblAmount);
             this.Controls.Add(this.label4);
@@ -192,7 +192,7 @@
         private Button BtnAddMoney;
         private Label label4;
         private Label LblAmount;
-        private Label label5;
+        private Label LblOut;
         private Label label6;
     }
 }
