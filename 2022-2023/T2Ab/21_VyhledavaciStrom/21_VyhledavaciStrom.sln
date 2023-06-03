@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_VyhledavaciStrom", "21_VyhledavaciStrom\21_VyhledavaciStrom.csproj", "{D81FA728-4365-4F5F-BF13-37FCC2E59D4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D81FA728-4365-4F5F-BF13-37FCC2E59D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81FA728-4365-4F5F-BF13-37FCC2E59D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81FA728-4365-4F5F-BF13-37FCC2E59D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81FA728-4365-4F5F-BF13-37FCC2E59D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E494BB3-4D19-4597-8C80-868744A760FB}
+	EndGlobalSection
+EndGlobal
