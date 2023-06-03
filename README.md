@@ -2,6 +2,6 @@
 
 # Repozitář předětu programování 
 
-# 2.A, T2.A, T1.A
+# 3.A, T3.A, T2.A
 
 # vyukove materialy = prezentace + demo příklady + příklady ze cvičení
