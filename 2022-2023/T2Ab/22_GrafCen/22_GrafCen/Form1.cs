@@ -3,6 +3,7 @@ namespace _22_GrafCen
     public partial class Form1 : Form
     {
         private List<int> obili = new List<int>();
+        private List<int> hovezi = new List<int>();
         public Form1()
         {
             InitializeComponent();
@@ -26,6 +27,22 @@ namespace _22_GrafCen
                 }
                 sr.Close();
             }
+
+            using (StreamReader sr = new StreamReader("beef.csv"))
+            {
+                // naprazdno vyèteme zahlaví, které nenese dùležité info
+                sr.ReadLine();
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    // 1990-01-01;98.46874
+                    string cena = line.Split(';')[1];
+
+                    obili.Add(int.Parse(cena.Split('.')[0]));
+
+                }
+                sr.Close();
+            }
         }
 
         private void BtnDraw_Click(object sender, EventArgs e)
@@ -38,14 +55,24 @@ namespace _22_GrafCen
             Graphics grf = e.Graphics;
             if (CheckWheat.Checked)
             {
-                List<Point> graf = new List<Point>();
+                List<Point> bodyObili = new List<Point>();
                 for(int x = 0; x < obili.Count; x++)
                 {
-                    graf.Add(new Point(x, PanelGraph.Height-obili[x]));
+                    bodyObili.Add(new Point(x, PanelGraph.Height - obili[x]));
                 }
-                grf.DrawLines(Pens.Orange, graf.ToArray());
-
+                grf.DrawLines(Pens.Orange, bodyObili.ToArray());
             }
+
+            if (CheckBeef.Checked)
+            {
+                Point[] bodyHovezi = new Point[hovezi.Count];
+                for (int x = 0; x < bodyHovezi.Length; x++)
+                {
+                    bodyHovezi[x] = new Point(x, PanelGraph.Height - hovezi[x]);
+                }
+                grf.DrawLines(Pens.Red, bodyHovezi);
+            }
+
         }
     }
 }
