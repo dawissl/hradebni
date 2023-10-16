@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Prevadeni_cislenych_soustav", "02_Prevadeni_cislenych_soustav\02_Prevadeni_cislenych_soustav.csproj", "{C317C198-5508-4B60-B82E-8202ACA66B22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C317C198-5508-4B60-B82E-8202ACA66B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C317C198-5508-4B60-B82E-8202ACA66B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C317C198-5508-4B60-B82E-8202ACA66B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C317C198-5508-4B60-B82E-8202ACA66B22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2494FEE3-899A-42F1-BDDD-3580EE183537}
+	EndGlobalSection
+EndGlobal
