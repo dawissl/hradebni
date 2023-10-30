@@ -13,19 +13,6 @@ namespace _02_Transakce
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            /* int countA = 0;
-             int countB = 0;
-
-             for (int i = 0; i < 1000; i++)
-             {
-                 double val = Randomizer();
-                 if (val == 1) countA++;
-                 else countB++;
-             }
-             MessageBox.Show($"% of 1 {countA}\n% of non 1 {countB}");
-            */
-
-
 
             MessageBox.Show("Naèítání databáze banky");
             Random random = new Random();
@@ -36,6 +23,15 @@ namespace _02_Transakce
                 {
                     superBanka.CreateAccount(i, Randomizer());
                     superBanka.Accounts[superBanka.Accounts.Count - 1].Deposit = random.Next(200, 5001);
+                    // fill deposit of bank
+                    if (superBanka.Accounts[superBanka.Accounts.Count - 1].IsInterest)
+                    {
+                        superBanka.InvestDeposit = superBanka.Accounts[superBanka.Accounts.Count - 1].Deposit;
+                    }
+                    else
+                    {
+                        superBanka.BaseDeposit = superBanka.Accounts[superBanka.Accounts.Count - 1].Deposit;
+                    }
                 }
             }
 
@@ -71,11 +67,6 @@ namespace _02_Transakce
 
         }
 
-        private void ComboAccountA_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void ComboUserA_SelectedIndexChanged(object sender, EventArgs e)
         {
             ComboAccountA.Items.Clear();
@@ -100,18 +91,53 @@ namespace _02_Transakce
             }
         }
 
-        private void BtnTransfer_Click(object sender, EventArgs e)
-        {
-            long accA = long.Parse(ComboAccountA.Text.Trim()[0].ToString());
-            long accB = long.Parse(ComboAccountB.Text.Trim()[0].ToString());
-            superBanka.TransferMoney(accA, accB, (double)NumMoney.Value);
-            RefreshBank();
-        }
-
         private void RefreshBank()
         {
 
             TxtOutput.Text = superBanka.ToString();
+        }
+
+        private void ComboUserA_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            ComboAccountA.Items.Clear();
+            Client cA = superBanka.Clients[ComboUserA.SelectedIndex];
+
+            foreach (ConnectionClientAccount con in cA.Connections)
+            {
+                Account acc = superBanka.Accounts.Find(x => x.ID_account == con.ID_Account);
+                if (acc != null) ComboAccountA.Items.Add(acc);
+            }
+        }
+
+
+        private void ComboUserB_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            ComboAccountB.Items.Clear();
+            Client cB = superBanka.Clients[ComboUserB.SelectedIndex];
+
+            foreach (ConnectionClientAccount con in cB.Connections)
+            {
+                Account acc = superBanka.Accounts.Find(x => x.ID_account == con.ID_Account);
+                if (acc != null) ComboAccountB.Items.Add(acc);
+            }
+        }
+
+        private void BtnUpdate_Click(object sender, EventArgs e)
+        {
+            TxtClasicDeposit.Text = superBanka.BaseDeposit.ToString();
+            TxtInvestDeposit.Text = superBanka.InvestDeposit.ToString();
+            TxtDepositSum.Text = (superBanka.BaseDeposit + superBanka.InvestDeposit).ToString();
+        }
+
+        private void BtnTransfer_Click_1(object sender, EventArgs e)
+        {
+           long accA = long.Parse(ComboAccountA.Text.Trim().Split(" ")[0].ToString());
+           long accB = long.Parse(ComboAccountB.Text.Trim().Split(" ")[0].ToString());
+           superBanka.TransferMoney(accA, accB, (double)NumMoney.Value);
+        
+
+
+            RefreshBank();
         }
     }
 }

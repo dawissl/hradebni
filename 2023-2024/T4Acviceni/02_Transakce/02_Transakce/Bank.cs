@@ -125,11 +125,11 @@ namespace _02_Transakce
 
             foreach (Account a in accounts)
             {
-                if (a.ID_account == id_acc_from)
+                if (a.ID_account.CompareTo(id_acc_from) == 0)
                 {
                     acc_from = a;
                 }
-                else if (a.ID_account == id_acc_to)
+                if (a.ID_account.CompareTo(id_acc_to) == 0)
                 {
                     acc_to = a;
                 }
