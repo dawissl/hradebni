@@ -9,6 +9,11 @@ namespace _04_Histogram
 
         int[,] image;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnGenerate_Click(object sender, EventArgs e)
         {
             /// Deklarace dvourozmìrného pole dle vstupu od uživatele
@@ -67,6 +72,11 @@ namespace _04_Histogram
             {
                 grf.FillRectangle(Brushes.Black, i, PanelHistogram.Height - histogram[i], 1, 1);
             }
+        }
+
+        public int[] Funkce(int a, int b, string s)
+        {
+            return new int[a];
         }
     }
 }
