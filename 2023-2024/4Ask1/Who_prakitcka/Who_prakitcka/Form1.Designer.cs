@@ -32,6 +32,11 @@
             NumVek = new NumericUpDown();
             BtnAdd = new Button();
             TxtVystup = new TextBox();
+            BtnLoad = new Button();
+            BtnExport = new Button();
+            CheckNemoci = new CheckBox();
+            CheckAges = new CheckBox();
+            OpenFileReports = new OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)NumVek).BeginInit();
             SuspendLayout();
             // 
@@ -74,11 +79,63 @@
             TxtVystup.Size = new Size(614, 354);
             TxtVystup.TabIndex = 3;
             // 
+            // BtnLoad
+            // 
+            BtnLoad.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnLoad.Location = new Point(666, 25);
+            BtnLoad.Name = "BtnLoad";
+            BtnLoad.Size = new Size(123, 39);
+            BtnLoad.TabIndex = 4;
+            BtnLoad.Text = "Načti";
+            BtnLoad.UseVisualStyleBackColor = true;
+            BtnLoad.Click += BtnLoad_Click;
+            // 
+            // BtnExport
+            // 
+            BtnExport.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnExport.Location = new Point(806, 24);
+            BtnExport.Name = "BtnExport";
+            BtnExport.Size = new Size(123, 39);
+            BtnExport.TabIndex = 5;
+            BtnExport.Text = "Export";
+            BtnExport.UseVisualStyleBackColor = true;
+            BtnExport.Click += BtnExport_Click;
+            // 
+            // CheckNemoci
+            // 
+            CheckNemoci.AutoSize = true;
+            CheckNemoci.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            CheckNemoci.Location = new Point(806, 84);
+            CheckNemoci.Name = "CheckNemoci";
+            CheckNemoci.Size = new Size(103, 36);
+            CheckNemoci.TabIndex = 6;
+            CheckNemoci.Text = "Příčiny";
+            CheckNemoci.UseVisualStyleBackColor = true;
+            // 
+            // CheckAges
+            // 
+            CheckAges.AutoSize = true;
+            CheckAges.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            CheckAges.Location = new Point(806, 126);
+            CheckAges.Name = "CheckAges";
+            CheckAges.Size = new Size(217, 36);
+            CheckAges.TabIndex = 7;
+            CheckAges.Text = "Věkové kategorie";
+            CheckAges.UseVisualStyleBackColor = true;
+            // 
+            // OpenFileReports
+            // 
+            OpenFileReports.FileName = "file.txt";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1110, 450);
+            Controls.Add(CheckAges);
+            Controls.Add(CheckNemoci);
+            Controls.Add(BtnExport);
+            Controls.Add(BtnLoad);
             Controls.Add(TxtVystup);
             Controls.Add(BtnAdd);
             Controls.Add(NumVek);
@@ -96,5 +153,10 @@
         private NumericUpDown NumVek;
         private Button BtnAdd;
         private TextBox TxtVystup;
+        private Button BtnLoad;
+        private Button BtnExport;
+        private CheckBox CheckNemoci;
+        private CheckBox CheckAges;
+        private OpenFileDialog OpenFileReports;
     }
 }

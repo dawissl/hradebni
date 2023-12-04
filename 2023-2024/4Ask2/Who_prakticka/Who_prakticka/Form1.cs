@@ -67,11 +67,41 @@ namespace Who_prakticka
             return index;
         }
 
+        public int[] IndexyNejcastejsichPricin(int n)
+        {
+            if (n > seznamPrincin.Count) n = seznamPrincin.Count;
+            int[] result = new int[n];
+
+            for (int i = 0; i < n; i++)
+            {
+                int index = 0;
+                while (result.Contains(index))
+                {
+                    index++;
+                }
+                int vyskyt = seznamPrincin[index].PocetVyskytu;
+
+                for (int j = 1; j < seznamPrincin.Count; j++)
+                {
+                    if (seznamPrincin[j].PocetVyskytu > vyskyt && !result.Contains(j))
+                    {
+                        index = j;
+                        vyskyt = seznamPrincin[j].PocetVyskytu;
+                    }
+                }
+                result[i] = index;
+            }
+
+            return result;
+
+        }
+
         private void BtnAdd_Click(object sender, EventArgs e)
         {
             PriradPacientaDoKategorie((int)NumVek.Value);
             AktualizaceSeznamuPricin(TxtPricina.Text);
             TxtVystup.Text = VypisInfo(true, true);
+            panel1.Refresh();
         }
 
         /// <summary>
@@ -86,9 +116,22 @@ namespace Who_prakticka
             string vystup = "";
             if (nemoc)
             {
-                vystup += $"{seznamPrincin[IndexNejcastejsiPriciny()].Onemocneni}" +
-                $" {(double)seznamPrincin[IndexNejcastejsiPriciny()].PocetVyskytu * 100 / PocetPacientu()}" +
-                $"%{Environment.NewLine}";
+                int[] indexy = IndexyNejcastejsichPricin(4);
+                for (int i = 0; i < indexy.Length; i++)
+                {
+                    vystup += $"{seznamPrincin[indexy[i]].Onemocneni}" +
+                              $" {Math.Round((double)seznamPrincin[indexy[i]].PocetVyskytu * 100 / PocetPacientu(), 3)}" +
+                              $"%{Environment.NewLine}";
+                }
+                double soucetOstatnich = 0;
+                for (int i = 0; i < seznamPrincin.Count; i++)
+                {
+                    if (!indexy.Contains(i)) soucetOstatnich += seznamPrincin[i].PocetVyskytu;
+                }
+                vystup += $"Ostatní " +
+                              $" {Math.Round(soucetOstatnich * 100 / PocetPacientu(), 3)}" +
+                              $"%{Environment.NewLine}";
+
             }
             if (vek)
             {
@@ -115,7 +158,7 @@ namespace Who_prakticka
             return suma;
         }
 
-        
+
         private void BtnFile_Click(object sender, EventArgs e)
         {
             // vypsani do souboru nemoci.txt
@@ -124,6 +167,95 @@ namespace Who_prakticka
                 writer.WriteLine(VypisInfo(CheckPriciny.Checked, CheckVeky.Checked));
                 writer.Close();
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (FileDialogLoadPacients.ShowDialog() == DialogResult.OK)
+            {
+                using (StreamReader reader = new StreamReader(FileDialogLoadPacients.FileName))
+                {
+                    while (!reader.EndOfStream)
+                    {
+                        string[] splitted = reader.ReadLine().Split("-");
+                        AktualizaceSeznamuPricin(splitted[0]);
+                        PriradPacientaDoKategorie(int.Parse(splitted[1]));
+                    }
+                    reader.Close();
+                }
+                TxtVystup.Text = VypisInfo(true, true);
+                panel1.Refresh();
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics grf = e.Graphics;
+            grf.FillRectangle(Brushes.White, 0, 0, panel1.Width, panel1.Height);
+            if (seznamPrincin.Count == 0)
+            {
+                return;
+            }           
+
+            //vekove kategorie
+            double sumaPacientu = deti + dospeli + duchodci;
+            int startAge = 0;
+            grf.FillPie(Brushes.Yellow, 10, 10, 150, 150, startAge, (int)(360 * (deti / sumaPacientu)));
+            startAge += (int)(360 * (deti / sumaPacientu));
+            grf.FillPie(Brushes.Green, 10, 10, 150, 150, startAge, (int)(360 * (dospeli / sumaPacientu)));
+            startAge += (int)(360 * (dospeli / sumaPacientu));
+            grf.FillPie(Brushes.Pink, 10, 10, 150, 150, startAge, (int)(360 * (duchodci / sumaPacientu)));
+
+
+            //priciny umrti
+            int[] indexy = IndexyNejcastejsichPricin(4);
+            double sumaVyskytu = 0;
+            foreach (Pricina p in seznamPrincin)
+            {
+                sumaVyskytu += p.PocetVyskytu;
+            }
+            int startDisease = 0;
+            SolidBrush[] stetce = { new SolidBrush(Color.Red), new SolidBrush(Color.Green),
+             new SolidBrush(Color.Blue), new SolidBrush(Color.Magenta) };
+            for (int i = 0; i < indexy.Length; i++)
+            {
+                grf.FillPie(stetce[i], 200, 10, 150, 150, startDisease, (int)(360 * (seznamPrincin[indexy[i]].PocetVyskytu / sumaVyskytu)));
+                startDisease += (int)(360 * (seznamPrincin[indexy[i]].PocetVyskytu / sumaVyskytu));
+            }
+            double soucetOstatnich = 0;
+            for (int i = 0; i < seznamPrincin.Count; i++)
+            {
+                if (!indexy.Contains(i)) soucetOstatnich += seznamPrincin[i].PocetVyskytu;
+
+            }
+
+            grf.FillPie(Brushes.Yellow, 200, 10, 150, 150, startDisease, (int)(360 * (soucetOstatnich / sumaVyskytu)));
+
+        }
+
+        private void programToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zavøítToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void restToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            seznamPrincin = new List<Pricina>();
+            deti = 0;
+            dospeli = 0;
+            duchodci = 0;
+            TxtVystup.Text = "";
+            panel1.Refresh();
+        }
+
+        private void oProgramuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Cvièná praktická maturita - 2023");
         }
     }
 }
