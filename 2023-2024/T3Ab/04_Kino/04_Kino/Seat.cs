@@ -11,8 +11,8 @@ namespace _04_Kino
         public Seat(int x, int y)
         {
             BackColor = Color.Aqua;
-            Width = 20;
-            Height = 20
+            Width = 22;
+            Height = 22
               ;
             Location = new Point(x, y);
             TextAlign = ContentAlignment.MiddleCenter;

@@ -2,7 +2,7 @@ namespace _09_VizualizacePulzu
 {
     public partial class Form1 : Form
     {
-       
+
         private bool manualMode = false;
         //poèet vyslaných impulzù
         private int pulseCount = 0;
@@ -170,7 +170,7 @@ namespace _09_VizualizacePulzu
             if (pulseCount != NumImpulseCount.Value)
             {
                 // hodnotu dìlíme 20 pro drobnou korelaci dat
-                pulses.Add(time/20);
+                pulses.Add(time / 20);
                 pulseCount++;
                 ProgressPulse.Value = pulseCount;
                 PanelVisualise.Refresh();

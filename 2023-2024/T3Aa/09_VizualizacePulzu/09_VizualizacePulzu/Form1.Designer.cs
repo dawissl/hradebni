@@ -181,6 +181,7 @@
             Controls.Add(ProgressPulse);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
+            MaximizeBox = false;
             Name = "Form1";
             Text = "Form1";
             menuStrip1.ResumeLayout(false);

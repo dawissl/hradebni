@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumBac", "BumBac\BumBac.csproj", "{ED04CEC3-805E-4D9A-B685-81F165E1E8D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED04CEC3-805E-4D9A-B685-81F165E1E8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED04CEC3-805E-4D9A-B685-81F165E1E8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED04CEC3-805E-4D9A-B685-81F165E1E8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED04CEC3-805E-4D9A-B685-81F165E1E8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A58E41AC-C888-4C8F-88F9-8834E7FBEFC3}
+	EndGlobalSection
+EndGlobal

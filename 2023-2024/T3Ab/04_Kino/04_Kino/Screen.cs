@@ -15,7 +15,7 @@ namespace _04_Kino
             BackColor = Color.White;
             TextAlign = ContentAlignment.MiddleCenter;
             Text = "Screen";
-            Width = (seatCount * 30) + ((seatCount - 1) * 10);
+            Width = (seatCount * 31) + ((seatCount - 1) * 10);
             Height = 30;
         }
     }
