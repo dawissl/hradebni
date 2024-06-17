@@ -2,9 +2,9 @@
 
 ## Repozitář předětu Programování a semináře z Cvičení programování
 
-### prezentace z hodin (pdf, ppt)
-### implementace aplikací vytvářených v hodinách
-### dodatečné materiály k výuce
+Prezentace z hodin (pdf, ppt)
+Implementace aplikací vytvářených v hodinách
+Dodatečné materiály k výuce
 
 
 ## Podmínky klasifikace z předmětu
@@ -35,3 +35,4 @@ V případě nerozhodné známky rozhoduje přístup k výuce, připravenost na 
 ### Konzultace k jednotlivým předmětům po předchozí domluvě
 
 ## Bc. David Sládeček
+sladecek@hradebni.cz
