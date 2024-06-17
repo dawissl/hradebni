@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_27_Greyscale</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="26_ObrazovySum">
+      <HintPath>..\..\26_ObrazovySum\26_ObrazovySum\bin\Debug\net8.0-windows\26_ObrazovySum.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
