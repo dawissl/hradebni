@@ -2,9 +2,9 @@
 
 ## Repozitář předětu Programování a semináře z Cvičení programování
 
- Prezentace z hodin (pdf, ppt)
- Implementace aplikací vytvářených v hodinách
- Dodatečné materiály k výuce
+- Prezentace z hodin (pdf, ppt)
+- Implementace aplikací vytvářených v hodinách
+- Dodatečné materiály k výuce
 
 
 ## Podmínky klasifikace z předmětu
@@ -27,7 +27,7 @@
 #### Aktivní přístup v hodinách
 - v průběhu hodin bude hodnocena implementace zadaných projektů (váha 3 - 5)
 
-Výsledná známka vychází jako vážený průměr z výše uvedeného hodnocení. 
+#### Výsledná známka vychází jako vážený průměr z výše uvedeného hodnocení. 
 
 Nerozhodná známka je v intervalu X,40 - X,60 (např. 2,40 - 2,60).
 V případě nerozhodné známky rozhoduje přístup k výuce, připravenost na jednotlivé hodiny případně chování v hodináchí.
