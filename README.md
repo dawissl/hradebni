@@ -1,9 +1,9 @@
 # SPŠ, SOŠ, SOŠ Hradební
 
-## Repozitář předětu Programování a semináře z Cvičení programování
+## Repozitář předmětu Programování a semináře z Cvičení programování
 
 - Prezentace z hodin (pdf, ppt)
-- Implementace aplikací vytvářených v hodinách
+- Zadání a implementace aplikací vytvářených v hodinách
 - Dodatečné materiály k výuce
 
 
@@ -31,14 +31,14 @@
 
 #### Výsledná známka vychází jako vážený průměr z výše uvedeného hodnocení. 
 
-Nerozhodná známka je v intervalu X,40 - X,60 (např. 2,40 - 2,60).
-V případě nerozhodné známky rozhoduje přístup k výuce, připravenost na jednotlivé hodiny případně chování v hodináchí.
+- Nerozhodná známka je v intervalu X,40 - X,60 (např. 2,40 - 2,60).
+- V případě nerozhodné známky rozhoduje přístup k výuce, připravenost na jednotlivé hodiny případně chování v hodináchí.
 
 #### Docházka
 - Student nepřekročí povolenou absenci vycházející ze školního řádu
 - V případě překročení absence je klasifikace diskutována s třídním a vyhodnocena individuálně
 
-#### Konzultace k jednotlivým předmětům po předchozí domluvě
+#### Konzultace k jednotlivým předmětům po předchozí domluvě s vyučujícím
 
 ### Bc. David Sládeček
 sladecek@hradebni.cz
