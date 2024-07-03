@@ -22,17 +22,21 @@
 - Testy mají různou formu (implementační, teorie) 
 - Splnění potřebného množství testů pro jednotlivé váhy je nutnou podmínkou klasifikace
 
-#### Odevzdané všechny zadané domácí úlohy (váha 1-5)
-- Vypracování a odevzdání všech povinných domácích úloh je nutnou podmínkou klasifikace
-
 #### Aktivní přístup v hodinách, řešení implementace
 - V průběhu hodin bude hodnocena implementace zadaných projektů a samostatná práce (váha 3 - 5)
 - Bonusové známky lze získat za aktivitu v hodinách
 
+#### Dobrovolné domácí práce (váha 1-3)
+- V průběhu výuky budou pro procvičení zařazovány domáci úlohy, za které lze získat známku navíc
+
 #### Výsledná známka vychází jako vážený průměr z výše uvedeného hodnocení. 
 
 - Nerozhodná známka je v intervalu X,40 - X,60 (např. 2,40 - 2,60).
-- V případě nerozhodné známky rozhoduje přístup k výuce, připravenost na jednotlivé hodiny případně chování v hodináchí.
+- V případě nerozhodné známky rozhodují dodatečná kritéria:
+  - Přístup k výuce
+  - Připravenost na jednotlivé hodiny
+  - Vypracování dobrovolných úkolů
+  - Chování v hodinách
 
 #### Docházka
 - Student nepřekročí povolenou absenci vycházející ze školního řádu
