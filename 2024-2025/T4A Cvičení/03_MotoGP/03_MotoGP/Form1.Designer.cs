@@ -46,10 +46,15 @@
             this.BtnAddRider = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.BtnRndGen = new System.Windows.Forms.Button();
+            this.NumRiderCount = new System.Windows.Forms.NumericUpDown();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NumTimeMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumRaceLength)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumTimeMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumXP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumRiderCount)).BeginInit();
             this.SuspendLayout();
             // 
             // NumTimeMin
@@ -222,11 +227,54 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "Výsledek závodu";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(779, 11);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(241, 32);
+            this.label10.TabIndex = 19;
+            this.label10.Text = "Náhodně generovat";
+            // 
+            // BtnRndGen
+            // 
+            this.BtnRndGen.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BtnRndGen.Location = new System.Drawing.Point(788, 97);
+            this.BtnRndGen.Name = "BtnRndGen";
+            this.BtnRndGen.Size = new System.Drawing.Size(205, 37);
+            this.BtnRndGen.TabIndex = 22;
+            this.BtnRndGen.Text = "Generovat";
+            this.BtnRndGen.UseVisualStyleBackColor = true;
+            this.BtnRndGen.Click += new System.EventHandler(this.BtnRndGen_Click);
+            // 
+            // NumRiderCount
+            // 
+            this.NumRiderCount.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.NumRiderCount.Location = new System.Drawing.Point(893, 56);
+            this.NumRiderCount.Name = "NumRiderCount";
+            this.NumRiderCount.Size = new System.Drawing.Size(100, 35);
+            this.NumRiderCount.TabIndex = 21;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.Location = new System.Drawing.Point(788, 62);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(58, 25);
+            this.label11.TabIndex = 20;
+            this.label11.Text = "Počet";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 513);
+            this.ClientSize = new System.Drawing.Size(1016, 513);
+            this.Controls.Add(this.BtnRndGen);
+            this.Controls.Add(this.NumRiderCount);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.BtnAddRider);
@@ -252,6 +300,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.NumRaceLength)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumTimeMax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NumXP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NumRiderCount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,5 +326,9 @@
         private Button BtnAddRider;
         private TextBox textBox1;
         private Label label9;
+        private Label label10;
+        private Button BtnRndGen;
+        private NumericUpDown NumRiderCount;
+        private Label label11;
     }
 }

@@ -25,7 +25,17 @@ namespace _03_MotoGP
         public override string ToString()
         {
             // TODO format time hh:mm:ss
-            return $"#{number} {name} - {time}";
+            return $"#{number} {name} - {FormatTime()}";
+        }
+
+        private string FormatTime()
+        {
+            // MM : SS
+            int minutes = (int) time / 60;
+            int seconds = (int) time % 60;
+            string min = (minutes < 10) ? $"0{minutes}" : $"{minutes}";
+            string sec = (seconds < 10) ? $"0{seconds}" : $"{seconds}";
+            return $"{min} : {sec}";
         }
     }
 }
