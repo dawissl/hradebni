@@ -41,6 +41,9 @@ namespace _03_MotoGP
         /// <returns>Jezdec s nejrychlejším èase</returns>
         private Rider StartRace()
         {
+            // clean riders time for new race
+            foreach (Rider r in riders)
+                r.Time = 0;
             Random rnd = new Random();
             // jednotlivá kola závodu
             for (int i = 0; i < rounds; i++)
