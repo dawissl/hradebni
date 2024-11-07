@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -49,6 +50,12 @@ namespace _06_Transakce
         public override string ToString()
         {
             return $"[{account_id}] - Zůstatek {money} Kč";
+        }
+
+        public static double GenerateId()
+        {
+            Random rnd = new Random();
+            return rnd.NextDouble()*rnd.Next(100,100000);
         }
     }
 }
