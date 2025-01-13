@@ -19,6 +19,7 @@
             string[] slova = { "ahoj", "Svete", "jak" , "je", "?"};
             int index = 4;
             mojeDruhePole[index] *= 100;
+            
             Console.WriteLine("..... 10_PoleStatistika .....");
             Console.Write("Zadejte velikost pole: ");
             int velikost = int.Parse(Console.ReadLine());
