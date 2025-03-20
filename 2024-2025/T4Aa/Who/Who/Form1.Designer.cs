@@ -67,6 +67,7 @@
             BtnAddPacient.Text = "Přidat pacienta";
             BtnAddPacient.UseVisualStyleBackColor = true;
             BtnAddPacient.Click += BtnAddPacient_Click;
+            BtnAddPacient.MouseHover += BtnAddPacient_MouseHover;
             // 
             // LblWorst
             // 

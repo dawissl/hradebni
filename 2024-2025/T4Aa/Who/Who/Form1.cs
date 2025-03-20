@@ -109,5 +109,10 @@ namespace Who
              * 5) zavøí souborový proud
              */
         }
+
+        private void BtnAddPacient_MouseHover(object sender, EventArgs e)
+        {
+            BtnAddPacient.BackColor = Color.Pink;
+        }
     }
 }
