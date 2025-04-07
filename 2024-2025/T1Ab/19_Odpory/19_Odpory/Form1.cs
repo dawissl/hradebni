@@ -16,8 +16,11 @@ namespace _19_Odpory
                 int minR = int.Parse(TxtMinR.Text);
                 int maxR = int.Parse(TxtMaxR.Text);
                 // ošetøení vstupních hodnot dle rozsahu
-                if (pocet > 10 || pocet < 2) throw new Exception("");
-                if (minR > maxR) throw new ArgumentException();
+                // | = alt + 124
+                if (pocet > 10 || pocet < 2) 
+                    throw new Exception("Poèete odporù musí být mezi 2 a 10");
+                if (minR > maxR) 
+                    throw new Exception("Minimùm musí být menší než maximum.");
 
                 //instance pro generování náhodných èísel
                 Random rnd = new Random();
@@ -43,14 +46,9 @@ namespace _19_Odpory
                 MessageBox.Show("Zadávejte pouze èísla.");
                 return;
             }
-            catch (ArgumentException ex)
-            {
-                MessageBox.Show("Minimální odpor musí být menší než maximální.");
-                return;
-            }
             catch (Exception ex)
             {
-                MessageBox.Show("Nelze vytvoøít více než 10 a ménì než 2 rezistory.");
+                MessageBox.Show(ex.Message);
                 return;
             }
         }
