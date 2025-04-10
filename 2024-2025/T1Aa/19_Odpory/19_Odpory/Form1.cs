@@ -16,6 +16,7 @@ namespace _19_Odpory
                 int minR = int.Parse(TxtMinR.Text);
                 int maxR = int.Parse(TxtMaxR.Text);
                 // ošetøení vstupních hodnot dle rozsahu
+                // | = alt + 124
                 if (pocet > 10 || pocet < 2) 
                     throw new Exception("Rozsah odporù musí být mezi 2 a 10");
                 if (minR > maxR)
@@ -51,12 +52,12 @@ namespace _19_Odpory
                 return;
             }
         }
-
+       
         // pomocná funkce pro výpoèet sériového zapojení
         private double SerialResistence(List<int> odpory)
-        {
-            return odpory.Sum();
-        }
+         {
+             return odpory.Sum();
+         }
 
         // pomocná funkce pro výpoèet paralelního zapojení
         private double ParalelResistence(List<int> odpory)
