@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_RadaCisel", "23_RadaCisel\23_RadaCisel.csproj", "{0C4FCE9C-77EE-4A2F-B82A-51A3D4CE222F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C4FCE9C-77EE-4A2F-B82A-51A3D4CE222F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4FCE9C-77EE-4A2F-B82A-51A3D4CE222F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4FCE9C-77EE-4A2F-B82A-51A3D4CE222F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4FCE9C-77EE-4A2F-B82A-51A3D4CE222F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF59299F-080A-4063-9DA9-205A0CB1267D}
+	EndGlobalSection
+EndGlobal
