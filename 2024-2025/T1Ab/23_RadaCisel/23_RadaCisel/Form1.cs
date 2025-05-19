@@ -32,7 +32,7 @@ namespace _23_RadaCisel
         private void BtnWork_Click(object sender, EventArgs e)
         {
             // ovìøení, zda je množina naplnìna daty
-            if(mnozinaCisel == null)
+            if (mnozinaCisel == null)
             {
                 LblVystup.Text = "Nebyla zadana vstupní èísla";
                 TxtNumbers.Text = "";
@@ -48,14 +48,54 @@ namespace _23_RadaCisel
                 case "SUMA":
                     vystup = SoucetHodnot(mnozinaCisel);
                     break;
+                case "MAX/MIN":
+                    vystup = MaxMin(mnozinaCisel);
+                    break;
+                case "SUDÁ/LICHÁ":
+                    vystup = SudaLicha(mnozinaCisel);
+                    break;
 
             }
             LblVystup.Text = vystup;
         }
 
+        private string SudaLicha(int[] mnozinaCisel)
+        {
+            int suda = 0, licha = 0;
+            foreach (int x in mnozinaCisel)
+            {
+                if (x % 2 == 0)
+                    suda++;
+                else
+                    licha++;
+            }
+            return $"V množinì je {suda} sudých a {licha} lichých èísel.";
+        }
+
+        private string MaxMin(int[] mnozinaCisel)
+        {
+            int max = mnozinaCisel[0];
+            int min = mnozinaCisel[0];
+            for (int i = 1; i < mnozinaCisel.Length; i++)
+            {
+                // využití ternárího operátoru namísto if
+                max = max < mnozinaCisel[i] ? mnozinaCisel[i] : max;
+                min = min > mnozinaCisel[i] ? mnozinaCisel[i] : min;
+            }
+            return $"Maximum je: {max} a minimum je: {min}";
+        }
+
         private string SoucetHodnot(int[] mnozinaCisel)
         {
-            return $"Souèet èísel je: {mnozinaCisel.Sum()}";
+            int tmp = 0;
+            //for (int i = 0; i < mnozinaCisel.Length; i++) { }
+            for (int i = mnozinaCisel.Length - 1; i >= 0; i--)
+            {
+                // tmp += mnozinaCisla[i]
+                tmp = tmp + mnozinaCisel[i];
+            }
+            // $ = alt + 36
+            return $"Souèet hodnot je: {tmp}";
         }
 
         private string VypisHodnot(int[] mnozinaCisel)

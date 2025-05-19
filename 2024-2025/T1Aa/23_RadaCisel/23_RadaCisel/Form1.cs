@@ -26,7 +26,7 @@ namespace _23_RadaCisel
         private void BtnWork_Click(object sender, EventArgs e)
         {
             string text = "";
-            if(mnozinaCisel == null)
+            if (mnozinaCisel == null)
             {
                 MessageBox.Show("Nejprve je tøeba vložit hodnoty!");
                 return;
@@ -42,10 +42,26 @@ namespace _23_RadaCisel
                 case "MAXIMUM":
                     text = MaxHodnota(mnozinaCisel);
                     break;
+                case "SUDÁ/LICHÁ":
+                    text = SudaLicha(mnozinaCisel);
+                    break;
             }
 
 
             LblVystup.Text = text;
+        }
+
+        private string SudaLicha(int[] mnozinaCisel)
+        {
+            int suda = 0, licha = 0;
+            for (int i = 0; i < mnozinaCisel.Length; i++)
+            {
+                if (mnozinaCisel[i] % 2 == 0)
+                    suda++;
+                else
+                    licha++;
+            }
+            return $"Sudých èísel je {suda} a lichých èísel je {licha}";
         }
 
         private string MaxHodnota(int[] mnozinaCisel)
@@ -53,20 +69,24 @@ namespace _23_RadaCisel
             int max = mnozinaCisel[0];
             for (int i = 1; i < mnozinaCisel.Length; i++)
             {
-                if (mnozinaCisel[i]>max)
-                    max = mnozinaCisel[i];
+                // využití ternárního operátoru
+                max = max < mnozinaCisel[i] ? mnozinaCisel[i] : max;
             }
-            return $"Nejvyšší hodnota je {max}";
+            return $"Maximum je: {max}";
         }
 
         private string SumaHodnot(int[] mnozinaCisel)
         {
-            int soucet = 0;
-            foreach(int cislo in mnozinaCisel)
+            int suma = 0;
+
+            for (int i = mnozinaCisel.Length - 1; i >= 0; i--)
             {
-                soucet += cislo;
+                suma = suma + mnozinaCisel[i];
+
+                // suma += mnozinaCisel[i];
             }
-            return $"Souèet hodnot je {soucet}";
+            // $ = alt + 36
+            return $"Souèet hodnot je: {suma}";
         }
 
         private string VypisHodnot(int[] mnozinaCisel)
@@ -76,7 +96,7 @@ namespace _23_RadaCisel
             {
                 tmp += $"{item}, ";
             }
-            return tmp; 
+            return tmp;
         }
     }
 }

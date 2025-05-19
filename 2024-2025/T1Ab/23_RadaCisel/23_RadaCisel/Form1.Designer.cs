@@ -56,7 +56,7 @@
             // ComboOpt
             // 
             ComboOpt.FormattingEnabled = true;
-            ComboOpt.Items.AddRange(new object[] { "suma", "součin", "max/min", "výpis" });
+            ComboOpt.Items.AddRange(new object[] { "suma", "součin", "max/min", "výpis", "sudá/lichá" });
             ComboOpt.Location = new Point(17, 39);
             ComboOpt.Name = "ComboOpt";
             ComboOpt.Size = new Size(315, 23);
