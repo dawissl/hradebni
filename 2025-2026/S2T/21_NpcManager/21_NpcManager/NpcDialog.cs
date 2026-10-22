@@ -15,9 +15,19 @@ namespace _21_NpcManager
         private NpcCharacter _character;
 
         public NpcCharacter Character { get { return _character; } }
+
+
         public NpcDialog()
         {
             InitializeComponent();
+        }
+
+        public NpcDialog(NpcCharacter edited) : this()
+        {
+            BtnExecute.Text = "Editovat postavu";
+            TxtName.Text = edited.Name;
+            NumLvl.Value = edited.Level;
+            CheckFriendly.Checked = edited.Friendly;
         }
 
         private void label1_Click(object sender, EventArgs e)

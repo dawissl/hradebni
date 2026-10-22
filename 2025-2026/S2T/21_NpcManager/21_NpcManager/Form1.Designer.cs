@@ -32,6 +32,8 @@
             BtnDialog = new Button();
             LblInfo = new Label();
             label1 = new Label();
+            BtnEdit = new Button();
+            BtnDelete = new Button();
             SuspendLayout();
             // 
             // NpcList
@@ -75,11 +77,35 @@
             label1.TabIndex = 3;
             label1.Text = "Informace o postavě";
             // 
+            // BtnEdit
+            // 
+            BtnEdit.Font = new Font("Segoe UI", 15.75F);
+            BtnEdit.Location = new Point(558, 197);
+            BtnEdit.Name = "BtnEdit";
+            BtnEdit.Size = new Size(183, 80);
+            BtnEdit.TabIndex = 4;
+            BtnEdit.Text = "Upravit postavu";
+            BtnEdit.UseVisualStyleBackColor = true;
+            BtnEdit.Click += BtnEdit_Click;
+            // 
+            // BtnDelete
+            // 
+            BtnDelete.Font = new Font("Segoe UI", 15.75F);
+            BtnDelete.Location = new Point(358, 294);
+            BtnDelete.Name = "BtnDelete";
+            BtnDelete.Size = new Size(183, 80);
+            BtnDelete.TabIndex = 5;
+            BtnDelete.Text = "Smazat postavu";
+            BtnDelete.UseVisualStyleBackColor = true;
+            BtnDelete.Click += BtnDelete_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(BtnDelete);
+            Controls.Add(BtnEdit);
             Controls.Add(label1);
             Controls.Add(LblInfo);
             Controls.Add(BtnDialog);
@@ -96,5 +122,7 @@
         private Button BtnDialog;
         private Label LblInfo;
         private Label label1;
+        private Button BtnEdit;
+        private Button BtnDelete;
     }
 }

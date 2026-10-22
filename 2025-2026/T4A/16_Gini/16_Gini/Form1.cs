@@ -6,5 +6,10 @@ namespace _16_Gini
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+        }
     }
 }
